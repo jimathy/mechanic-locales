@@ -393,6 +393,8 @@ Loc["en"] = {
 		label54 = "Do you want to remove the Turbo?",
 		label55 = "Do you want to remove the Xenon?",
 		label56 = "Do you want to remove the Tires?",
+		label57 = "Do you want to unload the Nitrous?",
+		label58 = "Nitrous:",
 	},
 	["repair"] = {
 		browse = "Browse Stash",
