@@ -207,7 +207,6 @@ Loc["en"] = {
 		matte = "Matte",
 		metals = "Metals",
 		
-		installing = "Success! Installing NOS",
 		installed = "Success! Paint Installed",
 		failed = "Paint installation failed!",
 		menuheader = " Respray",
