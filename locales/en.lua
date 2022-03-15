@@ -193,6 +193,7 @@ Loc["en"] = {
 		installing = "Success! Installing NOS",
 		installed = "Success! NOS Installed",
 		failed = "NOS installation failed!",
+		removing = "Removing NOS Bottle",
 	},	
 	["paint"] = { --paints.lua
 		primary = "Primary",
@@ -207,6 +208,7 @@ Loc["en"] = {
 		matte = "Matte",
 		metals = "Metals",
 		
+		installing = "Success! Installing NOS",
 		installed = "Success! Paint Installed",
 		failed = "Paint installation failed!",
 		menuheader = " Respray",
@@ -422,6 +424,15 @@ Loc["en"] = {
 		applyduct = "Applying Duct Tape..",
 		ductfull = "You can't use any more Duct Tape on this car",
 		nocar = "There is no vehicle nearby",
+	},
+	
+	["police"] = {
+		userepair = "Use Repair Station",
+		repair = "Repair",
+		extras = "Extras",
+		plates = "Plates",
+		livery = "Livery",
+		spoiler = "Spoilers",
 	},
 	
 	["extras"] = {

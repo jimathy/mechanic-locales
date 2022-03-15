@@ -423,6 +423,15 @@ Loc["de"] = {
 		nocar = "Es ist kein Fahrzeug in der nähe",
 	},
 	
+	["police"] = {
+		userepair = "Verwenden Sie die Reparaturstation",
+		repair = "Reparatur",
+		extras = "Extras",
+		plates = "Platten",
+		livery = "Livery",
+		spoiler = "Spoilers",
+	},
+	
 	["extras"] = {
 		clean = "Fahrzeug Sauber",
 		doorerr = "Tür Error",
