@@ -18,7 +18,7 @@ Loc["en"] = {
 		install = "Installing Armour..",
 		installed = "Success! Armour Installed..",
 		failed = "Armour installation failed!",
-		remove = "Success! Armour Removed",
+		removed = "Success! Armour Removed",
 		removing = "Removing Armour..",
 		remfail = "Armour removal failed!",
 	},
@@ -48,7 +48,7 @@ Loc["en"] = {
 		install = "Installing Suspension Level: ",
 		installed = "Success! Suspension Installed..",
 		failed = "Suspension installation failed!",
-		remove = "Success! Suspension Removed",
+		removed = "Success! Suspension Removed",
 		removing = "Removing Suspension..",
 		remfail = "Suspension removal failed!",
 	},
@@ -161,7 +161,7 @@ Loc["en"] = {
 		menuheader = " Hood Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
 	},	
 	["horns"] = { --horns.lua
-		installed = "Success! Hood Installed",
+		installed = "Success! Horn Installed",
 		failed = "Horn installation failed!",
 		menuheader = " Horn Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
 	},
@@ -194,6 +194,8 @@ Loc["en"] = {
 		installed = "Success! NOS Installed",
 		failed = "NOS installation failed!",
 		removing = "Removing NOS Bottle",
+		removed = "NOS Bottle Removed",
+		remfail = "Failed to remove NOS bottle",
 	},	
 	["paint"] = { --paints.lua
 		primary = "Primary",
@@ -208,7 +210,7 @@ Loc["en"] = {
 		matte = "Matte",
 		metals = "Metals",
 		
-		installing = "Success! Installing NOS",
+		installing = "Success! Installing Paint",
 		installed = "Success! Paint Installed",
 		failed = "Paint installation failed!",
 		menuheader = " Respray",
