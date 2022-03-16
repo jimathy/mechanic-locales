@@ -39,7 +39,7 @@ Loc["nl"] = {
 		installed = "Succes! Motor geïnstalleerd...",
 		failed = "Motor installatie mislukt!"
 		remove = "Succes! Motor Verwijderd",
-		removal = "Motor wordt verwijderd..."
+		removal = "Motor wordt verwijderd...",
 		remfail = "Verwijdering motor mislukt!",
 	},
 	["suspension"] = { --suspension.lua
@@ -49,17 +49,17 @@ Loc["nl"] = {
 		installed = "Succes! Ophanging geïnstalleerd..",
 		failed = "Ophanging installatie mislukt!"
 		remove = "Gelukt! Ophanging Verwijderd",
-		removal = "Ophanging verwijderen..."
+		removal = "Ophanging verwijderen...",
 		remfail = "Ophanging verwijderen mislukt!",
 	},
 	["transmission"] = { --transmission.lua
 		cant = "Transmissie kan niet worden geïnstalleerd op dit voertuig",
 		already = "Transmissie reeds geïnstalleerd",
 		install = "Installeer transmissie niveau: ",
-		installed = "Succes! Transmissie geïnstalleerd.."
-		failed = "Installatie van transmissie mislukt!"
+		installed = "Succes! Transmissie geïnstalleerd..",
+		failed = "Installatie van transmissie mislukt!",
 		remove = "Succes! Transmissie verwijderd",
-		removal = "Verwijderen transmissie..."
+		removal = "Verwijderen transmissie...",
 		remfail = "Verwijdering transmissie mislukt!",
 	},
 	["tires"] = { --tires.lua
@@ -88,16 +88,16 @@ Loc["nl"] = {
 		installed = "Succes! Turbo geïnstalleerd...",
 		failed = "Turbo-installatie mislukt!",
 		remove = "Succes! Turbo verwijderd",
-		verwijderen = "Turbo verwijderen..."
+		verwijderen = "Turbo verwijderen...",
 		remfail = "Verwijdering turbo mislukt!",
 	},
 	["xenons"] = { --xenons.lua
 		already = "Xenon koplampen reeds geïnstalleerd",
-		install = "Xenons installeren..."
+		install = "Xenons installeren...",
 		installed = "Succes! Xenon Koplampen Geïnstalleerd",
 		failed = "Xenon Koplampen Installatie Mislukt!",
 		remove = "Succes! Xenon verwijderd",
-		verwijderen = "Xenon verwijderen..."
+		verwijderen = "Xenon verwijderen...",
 		remfail = "Xenon verwijderen mislukt!",
 		closer = "Ga dichter naar de koplampen",
 		
@@ -155,7 +155,7 @@ Loc["nl"] = {
 		label10 = "Antennes",
 	},
 	["hood"] = { --hood.lua
-		stockMod = "Originele Motorkap..."
+		stockMod = "Originele Motorkap...",
 		installed = "Succes! Motorkap geïnstalleerd",
 		failed = "Motorkap installatie mislukt!",
 		menuheader = "Motorkap modificatie", --eg "Sultan RS Grille and Bumper Cosmetics"
@@ -166,7 +166,7 @@ Loc["nl"] = {
 		menuheader = "Claxon Wijzigen", --eg "Sultan RS Grille and Bumper Cosmetics"
 	},
 	["interior"] = { --interior.lua
-		stockMod = "Originele Interieur Mod..."
+		stockMod = "Originele Interieur Mod...",
 		installed = "Succes! Interieur Mod Geïnstalleerd",
 		failed = "Interieur aanpassing mislukt!",
 		menuheader = "Interieur Aanpassing", --eg "Sultan RS Grille and Bumper Cosmetics"
@@ -207,13 +207,13 @@ Loc["nl"] = {
 		matte = "Matte",
 		metals = "Metalen",
 		
-		geïnstalleerd = "Succes! Spuiten gelukt",
+		installed = "Succes! Spuiten gelukt",
 		failed = "Overspuiten mislukt!",
 		menuheader = "Overspuiten",
 	},
 	["plates"] = { --paints.lua
 		already = "Kenteken reeds geïnstalleerd!",
-		installing = "Kenteken installeren..."
+		installing = "Kenteken installeren...",
 		installed = "Succes! Kenteken Geïnstalleerd",
 		failed = "Kenteken installatie mislukt!",
 		menuheader = "Kenteken Wijziging",
@@ -223,7 +223,7 @@ Loc["nl"] = {
                 menuheader2 = " Custom Kenteken Style",
 	},
 	["rims"] = {
-		installing = "Velgen installeren..."
+		installing = "Velgen installeren...",
 		installed = "Succes! Velgen geïnstalleerd",
 		failed = "Velgen installatie mislukt!",
 		menuheader = "Velgen Modificatie",
@@ -279,7 +279,7 @@ Loc["nl"] = {
 		remove = "Verwijder rook",
 		custom = "CUSTOM RBG",
 		black = "Zwart",
-		white = "Wit",
+		white = "Wit
 		blue = "Blauw",
 		eblue = "Elektrisch Blauw",
 		mgreen = "Mint Groen",
@@ -324,7 +324,6 @@ Loc["nl"] = {
 	["payments"] = { --payments.lua
 		charge = "Klant rekening geven",
 	},	
-
 	["check"] = { --check_tunes.lua
 		plate = "Kenteken [",
 		value = "]<br>Waarde: €",
@@ -347,8 +346,8 @@ Loc["nl"] = {
 		label11 = "Voertuig: ",
 		
 		label12 = " opties ]",
-		label13 = "- Externe cosmetica -"
-		label14 = "- Interne cosmetica - "
+		label13 = "- Externe cosmetica -",
+		label14 = "- Interne cosmetica - ",
 		label15 = "Spoilers - [ ",
 		label16 = "Voorbumpers - [ ",
 		label17 = "Achterbumpers - [ ",
@@ -359,28 +358,28 @@ Loc["nl"] = {
 		label22 = "Linker Spatbord - [ ",
 		etiket23 = "Rechter spatbord - [ ",
 		label24 = "Dak - [ ",
-		label25 = "Platenhouders - [ "
+		label25 = "Platenhouders - [ ",
 		label26 = "Vanity Plates - [ ",
 		label27 = "Afwerking A - [ ",
 		label28 = "Afwerking B - [ ",
 		label29 = "Koffers - [ ",
-		label30 = "Motorblokken - [ "
-		label31 = "Luchtfilters - [ "
+		label30 = "Motorblokken - [ ",
+		label31 = "Luchtfilters - [ ",
 		label32 = "Motorsteunen - [ ",
 		label33 = "Motorkappen - [ ",
 		
-		label34 = "Rolkooien - [ "
-		label35 = "Ornamenten - [ "
-		label36 = "Dashboards - [ "
-		label37 = "Wijzerplaten - [ "
+		label34 = "Rolkooien - [ ",
+		label35 = "Ornamenten - [ ",
+		label36 = "Dashboards - [ ",
+		label37 = "Wijzerplaten - [ ",
 		label38 = "Deurluidsprekers - [ ",
-		label39 = "Stoelen - [ "
-		label40 = "Stuurwielen - [ "
+		label39 = "Stoelen - [ ",
+		label40 = "Stuurwielen - [ ",
 		label41 = "Schakelhendels - [ ",
 		label42 = "Platen - [ ",
 		label43 = "Luidsprekers - [ ",
 		label44 = "Hydraulica - [ ",
-		label45 = "Antennes - [ "
+		label45 = "Antennes - [ ",
 		label46 = "Brandstoftanks - [ ",
 		label47 = "✅ Ja",
 		label48 = "❌ Nee",
@@ -392,13 +391,13 @@ Loc["nl"] = {
 		label54 = "Wilt u de Turbo verwijderen?",
 		label55 = "Wilt u de Xenon verwijderen?",
 		label56 = "Wilt u de banden verwijderen?",
-		label57 = "Wilt u de Nitrous lossen?"
+		label57 = "Wilt u de Nitrous lossen?",
 		label58 = "Lachgas:",
 	},
 	["repair"] = {
 		browse = "Blader door Stash",
 		materials = "Je hebt niet genoeg materialen",
-		checkeng = "De schade aan de motor controleren..."
+		checkeng = "De schade aan de motor controleren...",
 		checkbody = "De schade aan het plaatwerk controleren...",
 		
 		engine = "Motor",
@@ -409,7 +408,7 @@ Loc["nl"] = {
 		clutch = "Koppeling",
 		tank = "Brandstoftank",
 		
-		repairing = "Repareren "
+		repairing = "Repareren ",
 		repaired = " volledig gerepareerd",
 		cancel = "Reparatie geannuleerd!",
 		nomaterials = "Er zijn niet genoeg materialen in de kluis",
@@ -419,18 +418,11 @@ Loc["nl"] = {
 		status = "Status: ",
 		doyou = "Herstellen van de ",
 		
-		applyduct = "Aanbrengen van Duct Tape..."
+		applyduct = "Aanbrengen van Duct Tape...",
 		ductfull = "U kunt geen Duct Tape meer gebruiken op deze auto",
 		nocar = "Er is geen voertuig in de buurt",
 	},
-	["police"] = {
-		userepair = "Gebruik reparatiestation",
-		repair = "Reparatie",
-		extras = "Extras",
-		plates = "Borden",
-		livery = "Stickers",
-		spoiler = "Spoilers",
-	},
+	
 	["extras"] = {
 		clean = "Voertuig schoongemaakt",
 		doorerr = "Deur Fout",
