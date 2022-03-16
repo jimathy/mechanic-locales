@@ -37,7 +37,7 @@ Loc["nl"] = {
 		already = "Motor is al geïnstalleerd",
 		install = "Installeer motor niveau: ",
 		installed = "Succes! Motor geïnstalleerd...",
-		failed = "Motor installatie mislukt!"
+		failed = "Motor installatie mislukt!",
 		remove = "Succes! Motor Verwijderd",
 		removal = "Motor wordt verwijderd...",
 		remfail = "Verwijdering motor mislukt!",
@@ -47,7 +47,7 @@ Loc["nl"] = {
 		already = "Ophanging reeds geïnstalleerd",
 		install = "Installeer ophanging niveau: ",
 		installed = "Succes! Ophanging geïnstalleerd..",
-		failed = "Ophanging installatie mislukt!"
+		failed = "Ophanging installatie mislukt!",
 		remove = "Gelukt! Ophanging Verwijderd",
 		removal = "Ophanging verwijderen...",
 		remfail = "Ophanging verwijderen mislukt!",
@@ -119,10 +119,9 @@ Loc["nl"] = {
 		xenonheader = "Xenon Regelaars",
 		xenontxt = "Aanpassen kleur koplamp van voertuig",
 	},
-
 	--Cosmetic Items
 	["bumpers"] = { --bumpers.lua
-		stockMod = "Originele Bumper..."
+		stockMod = "Originele Bumper...",
 		installed = "Succes! Bumper Geïnstalleerd",
 		failed = "Bumper installatie mislukt!",
 		menuheader = " Gril en bumpercosmetica", --eg "Sultan RS Grille and Bumper Cosmetics"
@@ -265,7 +264,7 @@ Loc["nl"] = {
 		menuLF = "Linker Spatbord",
 	},		
 	["spoilers"] = { --spoilers.lua
-		geïnstalleerd = "Succes! Spoiler Geïnstalleerd",
+		installed = "Succes! Spoiler Geïnstalleerd",
 		failed = "Spoiler installatie mislukt!",
 		menuheader = " Spoiler Wijziging", --eg "Sultan RS Grille and Bumper Cosmetics"
 	},		
@@ -279,7 +278,7 @@ Loc["nl"] = {
 		remove = "Verwijder rook",
 		custom = "CUSTOM RBG",
 		black = "Zwart",
-		white = "Wit
+		white = "Wit",
 		blue = "Blauw",
 		eblue = "Elektrisch Blauw",
 		mgreen = "Mint Groen",
@@ -340,7 +339,7 @@ Loc["nl"] = {
 		label5 = "Pantser:",
 		label6 = "Turbo:",
 		label7 = "Xenon:",
-		label8 = "Driftbanden:"
+		label8 = "Driftbanden:",
 		label9 = "Kogelvrije banden:",
 		label10 = "Lijst van mogelijke aanpassingen",
 		label11 = "Voertuig: ",
