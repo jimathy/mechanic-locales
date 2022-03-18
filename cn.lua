@@ -461,14 +461,14 @@ Loc["cn"] = {
 	["servfunction"] = {
 		checkdamage = "查看车辆受损状况",
 		checkmods = "查看车辆可用的改装件",
-		flipvehicle = "Flip nearest vehicle",
+		flipvehicle = "翻转最近的车辆",
 		togglesound = "开启升级引擎声",
 		togglesoundesc = "设置引擎声开关",
 		cleancar = "清理车辆",
-		hood = "Open/Close Hood",
-		trunk = "Open/Close trunk",
-		door = "Open/Close Door [0-3]",
-		seat = "Move to another seat [-1 to 10]",
+		hood = "开/关 引擎盖",
+		trunk = "开/关 后备箱",
+		door = "开/关 车门 [0-3]",
+		seat = "换座位 [-1 to 10]",
 	},
 	
 	--Below are names of items/mods that can't be reteived natively
