@@ -214,6 +214,15 @@ Loc["de"] = {
 		failed = "Farbeninstallation fehlgeschlagen",
 		menuheader = " Respray",
 	},
+	["paintrgb"] = {
+		select = "Selection:",
+		finish = "Finish Select:",
+		error = "Hex Code input needs to be 6 characters",
+		customheader = "Custom HEX",
+		chrome = "Chrome",
+		hex = "HEX Picker",
+		rgb = "RGB Picker",
+	},
 	["plates"] = { --paints.lua
 		already = "Kennzeichen bereits installiert",
 		installing = "Installing Kennzeichen",
