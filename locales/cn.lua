@@ -215,15 +215,6 @@ Loc["cn"] = {
 		failed = "喷漆颜色更改失败!",
 		menuheader = " 喷漆",
 	},
-	["paintrgb"] = {
-		select = "Selection:",
-		finish = "Finish Select:",
-		error = "Hex Code input needs to be 6 characters",
-		customheader = "Custom HEX",
-		chrome = "Chrome",
-		hex = "HEX Picker",
-		rgb = "RGB Picker",
-	},
 	["plates"] = { --paints.lua
 		already = "牌照已安装!",
 		installing = "安装牌照中..",
@@ -479,7 +470,10 @@ Loc["cn"] = {
 		door = "开/关 车门 [0-3]",
 		seat = "换座位 [-1 to 10]",
 	},
-	
+	["previews"] = {
+		changes = "Amount of changes: ",
+	},
+		
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
 		{ name = "白底蓝字#1", id = 0 },

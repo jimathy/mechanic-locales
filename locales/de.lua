@@ -214,15 +214,6 @@ Loc["de"] = {
 		failed = "Farbeninstallation fehlgeschlagen",
 		menuheader = " Respray",
 	},
-	["paintrgb"] = {
-		select = "Selection:",
-		finish = "Finish Select:",
-		error = "Hex Code input needs to be 6 characters",
-		customheader = "Custom HEX",
-		chrome = "Chrome",
-		hex = "HEX Picker",
-		rgb = "RGB Picker",
-	},
 	["plates"] = { --paints.lua
 		already = "Kennzeichen bereits installiert",
 		installing = "Installing Kennzeichen",
@@ -476,7 +467,10 @@ Loc["de"] = {
 		door = "Öffne/Schließe Tür [0-3]",
 		seat = "Wechsle den Sitz [-1 to 10]",
 	},
-	
+	["previews"] = {
+		changes = "Amount of changes: ",
+	},
+		
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
 		{ name = "Blue on White #1", id = 0 },

@@ -213,15 +213,6 @@ Loc["nl"] = {
 		failed = "Overspuiten mislukt!",
 		menuheader = "Overspuiten",
 	},
-	["paintrgb"] = {
-		select = "Selection:",
-		finish = "Finish Select:",
-		error = "Hex Code input needs to be 6 characters",
-		customheader = "Custom HEX",
-		chrome = "Chrome",
-		hex = "HEX Picker",
-		rgb = "RGB Picker",
-	},
 	["plates"] = { --paints.lua
 		already = "Kenteken reeds geïnstalleerd!",
 		installing = "Kenteken installeren...",
@@ -474,7 +465,10 @@ Loc["nl"] = {
 		door = "Deur openen/sluiten [0-3]",
 		seat = "Ga naar een andere stoel [-1 tot 10]",
 	},
-	
+	["previews"] = {
+		changes = "Amount of changes: ",
+	},
+		
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
 		{ name = "Blue on White #1", id = 0 },

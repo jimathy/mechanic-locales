@@ -479,6 +479,9 @@ Loc["en"] = {
 		door = "Open/Close Door [0-3]",
 		seat = "Move to another seat [-1 to 10]",
 	},
+	["previews"] = {
+		changes = "Amount of changes: ",
+	},
 	
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
