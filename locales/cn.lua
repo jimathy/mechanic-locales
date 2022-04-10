@@ -215,6 +215,15 @@ Loc["cn"] = {
 		failed = "喷漆颜色更改失败!",
 		menuheader = " 喷漆",
 	},
+	["paintrgb"] = {
+		select = "色调:",
+		finish = "材质:",
+		error = "Hex值最少是6个字符",
+		customheader = "自定义颜色",
+		chrome = "铬合金",
+		hex = "HEX输入",
+		rgb = "RGB输入",
+	},
 	["plates"] = { --paints.lua
 		already = "牌照已安装!",
 		installing = "安装牌照中..",
@@ -471,7 +480,7 @@ Loc["cn"] = {
 		seat = "换座位 [-1 to 10]",
 	},
 	["previews"] = {
-		changes = "Amount of changes: ",
+		changes = "改装项目: ",
 	},
 		
 	--Below are names of items/mods that can't be reteived natively
