@@ -468,7 +468,14 @@ Loc["nl"] = {
 	["previews"] = {
 		changes = "Amount of changes: ",
 	},
-		
+	["garage"] = {
+		jobgarage = "Job Garage",
+		vehout = "Vehicle out of Garage",
+		remveh = "Remove Vehicle",
+		cantspawn = " in the way",
+		marker = "Job Vehicle Marked on Map",
+		markername = "Job Vehicle",
+	},
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
 		{ name = "Blue on White #1", id = 0 },

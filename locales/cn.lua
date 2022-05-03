@@ -482,7 +482,14 @@ Loc["cn"] = {
 	["previews"] = {
 		changes = "改装项目: ",
 	},
-		
+	["garage"] = {
+		jobgarage = "Job Garage",
+		vehout = "Vehicle out of Garage",
+		remveh = "Remove Vehicle",
+		cantspawn = " in the way",
+		marker = "Job Vehicle Marked on Map",
+		markername = "Job Vehicle",
+	},	
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
 		{ name = "白底蓝字#1", id = 0 },
