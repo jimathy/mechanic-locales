@@ -192,9 +192,19 @@ Loc["de"] = {
 		notinstalled = "Turbo isn't installed",
 		installing = "Success! Installing NOS",
 		installed = "Success! NOS Installed",
+		removing = "Removing NOS Bottle",
 		failed = "NOS installation failed!",
 		removed = "NOS Bottle Removed",
 		remfail = "Failed to remove NOS bottle",
+	},	
+	["paintrgb"] = {
+		select = "Selection:",
+		finish = "Finish Select:",
+		error = "Hex Code input needs to be 6 characters",
+		customheader = "Custom HEX",
+		chrome = "Chrome",
+		hex = "HEX Picker",
+		rgb = "RGB Picker",
 	},	
 	["paint"] = { --paints.lua
 		primary = "Primär",
@@ -248,6 +258,11 @@ Loc["de"] = {
 		label15 = "Motorcycle",
 		
 		labelcustom = "Custom Felgen",
+	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Success! Roll Cage Installed",
+		failed = "Roll Cage installation failed!",
+		menuheader = " Roll Cage Modification",
 	},
 	["roof"] = { --roof.lua
 		installed = "Erfolgreich Dach installiert",
@@ -327,7 +342,6 @@ Loc["de"] = {
 	["payments"] = { --payments.lua
 		charge = "Charge Customer",
 	},	
-
 	["check"] = { --check_tunes.lua
 		plate = "Plate: [",
 		value = "]<br>Value: $",
@@ -395,6 +409,8 @@ Loc["de"] = {
 		label54 = "Willst du den Turbo entfernen?",
 		label55 = "Willst du die Xenon entfernen?",
 		label56 = "Willst du die Reifen entfernen?",
+		label57 = "Do you want to unload the Nitrous?",
+		label58 = "Nitrous:",
 	},
 	["repair"] = {
 		browse = "Lager öffnen",
@@ -451,6 +467,7 @@ Loc["de"] = {
 		distance = "Distanz: ",
 		inCar = "Aus dem Fahrzeuginneren ist dies nicht möglich",
 		outCar = "Von außerhalb des Fahrzeugs ist dies nicht möglich",
+		locked = "Vehicle is Locked",
 		nearby = "Es ist kein Fahrzeug in der nähe",
 		shop = "Kann nicht außerhalb vom Mechaniker arbeiten",
 		mechanic = "Nur ein Mechaniker weiß, wie das geht",

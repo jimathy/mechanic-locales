@@ -259,20 +259,25 @@ Loc["en"] = {
 		
 		labelcustom = "Custom Rims",
 	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Success! Roll Cage Installed",
+		failed = "Roll Cage installation failed!",
+		menuheader = " Roll Cage Modification",
+	},
 	["roof"] = { --roof.lua
 		installed = "Success! Roof Installed",
 		failed = "Roof installation failed!",
-		menuheader = " Roof Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+		menuheader = " Roof Modification",
+	},
 	["seat"] = { --seat.lua
 		installed = "Success! Seat Installed",
 		failed = "Seat installation failed!",
-		menuheader = " Seat Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
+		menuheader = " Seat Modification", 
 	},
 	["skirts"] = { --skirts.lua
 		installed = "Success! Skirt Installed",
 		failed = "Skirt installation failed!",
-		menuheader = " Skirt and Fender Cosmetics", --eg "Sultan RS Grille and Bumper Cosmetics"
+		menuheader = " Skirt and Fender Cosmetics",
 		menuskirt = "Skirts",
 		menuRF = "Right Fender",
 		menuLF = "Left Fender",
@@ -280,14 +285,14 @@ Loc["en"] = {
 	["spoilers"] = { --spoilers.lua
 		installed = "Success! Spoiler Installed",
 		failed = "Spoiler installation failed!",
-		menuheader = " Spoiler Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
+		menuheader = " Spoiler Modification",
 	},		
 	["smoke"] = { --tiresmoke.lua
 		already = "This colour is currently applied!",
 		installing = "Installing Tire Smoke..",
 		installed = "Success! Smoke Installed",
 		failed = "Smoke installation failed!",
-		menuheader = " Tire Smoke Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
+		menuheader = " Tire Smoke Modification",
 		
 		remove = "Remove Smoke",
 		custom = "CUSTOM RBG",
@@ -311,7 +316,7 @@ Loc["en"] = {
 	["windows"] = { --windows.lua
 		installed = "Success! Tint Installed",
 		failed = "Tint installation failed!",
-		menuheader = " Window Tints", --eg "Sultan RS Grille and Bumper Cosmetics"
+		menuheader = " Window Tints",
 		
 		label1 = "Tint Removal",
 		label2 = "Limo",
@@ -336,8 +341,7 @@ Loc["en"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "Charge Customer",
-	},	
-
+	},
 	["check"] = { --check_tunes.lua
 		plate = "Plate: [",
 		value = "]<br>Value: $",
@@ -463,6 +467,7 @@ Loc["en"] = {
 		distance = "Distance: ",
 		inCar = "Cannot do this from inside the vehicle",
 		outCar = "Cannot do this from outside the vehicle",
+		locked = "Vehicle is Locked",
 		nearby = "There is no vehicle nearby",
 		shop = "Can't work outside of a shop",
 		mechanic = "Only a mechanic knows how to do this",

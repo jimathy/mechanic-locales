@@ -259,6 +259,11 @@ Loc["fr"] = {
 		
 		labelcustom = "Jantes personnalisées",
 	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Success! Roll Cage Installed",
+		failed = "Roll Cage installation failed!",
+		menuheader = " Roll Cage Modification",
+	},
 	["roof"] = { --roof.lua
 		installed = "Toit installé avec succès",
 		failed = "L'installation du toit a échoué",
@@ -336,8 +341,7 @@ Loc["fr"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "Facturer le client",
-	},	
-
+	},
 	["check"] = { --check_tunes.lua
 		plate = "Plaque: [",
 		value = "]<br>Prix: $",
@@ -463,6 +467,7 @@ Loc["fr"] = {
 		distance = "Distance: ",
 		inCar = "Impossible de le faire depuis l'intérieur du véhicule",
 		outCar = "Impossible de le faire depuis l'extérieur du véhicule",
+		locked = "Vehicle is Locked",
 		nearby = "Il n'y a pas de véhicule à proximité",
 		shop = "Ne peut pas travailler en dehors d'un magasin",
 		mechanic = "Seul un mécanicien sait faire ça",
