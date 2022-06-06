@@ -189,12 +189,22 @@ Loc["de"] = {
 		menuheader = " Livery Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
 	},		
 	["nos"] = { --exhaust.lua
-		notinstalled = "Turbo isn't installed",
-		installing = "Success! Installing NOS",
-		installed = "Success! NOS Installed",
-		failed = "NOS installation failed!",
-		removed = "NOS Bottle Removed",
-		remfail = "Failed to remove NOS bottle",
+		notinstalled = "Turbo ist nicht installiert",
+		installing = "Erfolgreich! Installation von NOS",
+		installed = "Erfolgreich! NOS-Installation",
+		removing = "Entfernen der NOS-Flasche",
+		failed = "NOS-Installation fehlgeschlagen!",
+		removed = "NOS-Flasche entfernt",
+		remfail = "NOS-Flasche konnte nicht entfernt werden",
+	},	
+	["paintrgb"] = {
+		select = "Auswahl:",
+		finish = "Fertig:",
+		error = "Die Eingabe des Hex-Codes muss 6 Zeichen umfassen.",
+		customheader = "Custom HEX",
+		chrome = "Chrome",
+		hex = "HEX Picker",
+		rgb = "RGB Picker",
 	},	
 	["paint"] = { --paints.lua
 		primary = "Primär",
@@ -248,6 +258,11 @@ Loc["de"] = {
 		label15 = "Motorcycle",
 		
 		labelcustom = "Custom Felgen",
+	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Erfolgreich! Überrollkäfig installiert",
+		failed = "Einbau des Überrollkäfigs fehlgeschlagen!",
+		menuheader = " Überrollkäfig Modifikation",
 	},
 	["roof"] = { --roof.lua
 		installed = "Erfolgreich Dach installiert",
@@ -327,7 +342,6 @@ Loc["de"] = {
 	["payments"] = { --payments.lua
 		charge = "Charge Customer",
 	},	
-
 	["check"] = { --check_tunes.lua
 		plate = "Plate: [",
 		value = "]<br>Value: $",
@@ -395,6 +409,8 @@ Loc["de"] = {
 		label54 = "Willst du den Turbo entfernen?",
 		label55 = "Willst du die Xenon entfernen?",
 		label56 = "Willst du die Reifen entfernen?",
+		label57 = "Do you want to unload the Nitrous?",
+		label58 = "Nitrous:",
 	},
 	["repair"] = {
 		browse = "Lager öffnen",
@@ -451,6 +467,7 @@ Loc["de"] = {
 		distance = "Distanz: ",
 		inCar = "Aus dem Fahrzeuginneren ist dies nicht möglich",
 		outCar = "Von außerhalb des Fahrzeugs ist dies nicht möglich",
+		locked = "Vehicle is Locked",
 		nearby = "Es ist kein Fahrzeug in der nähe",
 		shop = "Kann nicht außerhalb vom Mechaniker arbeiten",
 		mechanic = "Nur ein Mechaniker weiß, wie das geht",

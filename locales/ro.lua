@@ -260,6 +260,11 @@ Loc["ro"] = {
 		
 		labelcustom = "Custom Rims",
 	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Success! Roll Cage Installed",
+		failed = "Roll Cage installation failed!",
+		menuheader = " Roll Cage Modification",
+	},
 	["roof"] = { --roof.lua
 		installed = "Plafon montat",
 		failed = "Montarea plafonului a esuat",
@@ -464,6 +469,7 @@ Loc["ro"] = {
 		distance = "Distanta: ",
 		inCar = "Nu poti face asta din vehicul",
 		outCar = "Nu poti face asta din afara vehiculului",
+		locked = "Vehicle is Locked",
 		nearby = "Nu e niciun vehicul in apropiere",
 		shop = "Nu poti lucra decat in service!",
 		mechanic = "Ai nevoie de un mecanic sa te ajute cu asta",

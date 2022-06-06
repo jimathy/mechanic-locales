@@ -213,6 +213,15 @@ Loc["nl"] = {
 		failed = "Overspuiten mislukt!",
 		menuheader = "Overspuiten",
 	},
+	["paintrgb"] = {
+		select = "Selection:",
+		finish = "Finish Select:",
+		error = "Hex Code input needs to be 6 characters",
+		customheader = "Custom HEX",
+		chrome = "Chrome",
+		hex = "HEX Picker",
+		rgb = "RGB Picker",
+	},
 	["plates"] = { --paints.lua
 		already = "Kenteken reeds geïnstalleerd!",
 		installing = "Kenteken installeren...",
@@ -247,6 +256,11 @@ Loc["nl"] = {
 		label15 = "Motorcycle",
 		
 		labelcustom = "Custom Rims",
+	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Success! Roll Cage Installed",
+		failed = "Roll Cage installation failed!",
+		menuheader = " Roll Cage Modification",
 	},
 	["roof"] = { --roof.lua
 		installed = "Succes! Dak geïnstalleerd",
@@ -449,6 +463,7 @@ Loc["nl"] = {
 		distance = "Afstand: ",
 		inCar = "Kan dit niet doen van binnen het voertuig",
 		outCar = "Dit kan niet van buiten het voertuig",
+		locked = "Vehicle is Locked",
 		nearby = "Er is geen voertuig in de buurt",
 		shop = "Kan niet buiten een winkel werken",
 		mechanic = "Alleen een monteur weet hoe je dit moet doen",

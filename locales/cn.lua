@@ -259,6 +259,11 @@ Loc["cn"] = {
 		
 		labelcustom = "自定义轮圈",
 	},
+	["rollcage"] = { --rollcage.lua
+		installed = "Success! Roll Cage Installed",
+		failed = "Roll Cage installation failed!",
+		menuheader = " Roll Cage Modification",
+	},
 	["roof"] = { --roof.lua
 		installed = "车棚安装成功",
 		failed = "车棚安装失败!",
@@ -463,6 +468,7 @@ Loc["cn"] = {
 		distance = "行驶里程: ",
 		inCar = "不能在车内这么做",
 		outCar = "只有在车内才能这么做",
+		locked = "Vehicle is Locked",
 		nearby = "附近没有车啊",
 		shop = "不能在店外工作",
 		mechanic = "只有修理技工知道该怎么做",
