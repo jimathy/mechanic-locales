@@ -63,10 +63,9 @@ Loc["ro"] = {
 		remfail = "Scoaterea transmisiei a esuat!",
 	},
 	["tires"] = { --tires.lua
-    
-        cant = "Cauciucurile de drift nu pot fi montate pe acest vehicul",
+		--Drift
+   		already = "Cauciucurile de drift au fost deja montate",
 		install = "Se monteaza cauciucurile de drift",
-		already = "Cauciucurile de drift au fost deja montate",
 		installed = "Cauciucurile de drift au fost montate",
 		failed = "Montarea caucicurilor de drift a esuat!",
 		remove = "Cauciucurile de drift au fost scoase",
@@ -343,7 +342,6 @@ Loc["ro"] = {
 	["payments"] = { --payments.lua
 		charge = "Scoate factura",
 	},	
-
 	["check"] = { --check_tunes.lua
 		plate = "Placuta",
 		value = "Valoare",
@@ -442,7 +440,6 @@ Loc["ro"] = {
 		ductfull = "Prea multa banda izoliera ,dao dracu ca nu-i dacie",
 		nocar = "Nu exista nici un vehicul in apropiere",
 	},
-	
 	["police"] = {
 		userepair = "Foloseste statia de reparare",
 		repair = "Repara",
@@ -450,8 +447,15 @@ Loc["ro"] = {
 		plates = "Placute",
 		livery = "Livery",
 		spoiler = "Spoiler",
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
 	},
-	
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "Spala vehicul",
 		doorerr = "Eroare usa",

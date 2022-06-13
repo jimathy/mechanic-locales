@@ -440,7 +440,6 @@ Loc["en"] = {
 		ductfull = "You can't use any more Duct Tape on this car",
 		nocar = "There is no vehicle nearby",
 	},
-	
 	["police"] = {
 		userepair = "Use Repair Station",
 		repair = "Repair",
@@ -448,8 +447,15 @@ Loc["en"] = {
 		plates = "Plates",
 		livery = "Livery",
 		spoiler = "Spoilers",
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
 	},
-	
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "Vehicle Clean",
 		doorerr = "Door Error",

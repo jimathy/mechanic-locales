@@ -341,8 +341,7 @@ Loc["cn"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "向客户收费",
-	},	
-
+	},
 	["check"] = { --check_tunes.lua
 		plate = "车牌号: [",
 		value = "]<br>价值: $",
@@ -441,7 +440,6 @@ Loc["cn"] = {
 		ductfull = "你不能在这辆车上用更多的胶带了",
 		nocar = "附近没有车啊",
 	},
-	
 	["police"] = {
 		userepair = "使用修理站",
 		repair = "修理",
@@ -449,8 +447,15 @@ Loc["cn"] = {
 		plates = "车牌",
 		livery = "涂装",
 		spoiler = "尾翼",
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
 	},
-	
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "车辆清理",
 		doorerr = "车门错误",

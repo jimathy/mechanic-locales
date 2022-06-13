@@ -445,7 +445,15 @@ Loc["nl"] = {
 		plates = "Borden",
 		livery = "Stickers",
 		spoiler = "Spoilers",
-	},	
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
+	},
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "Voertuig schoongemaakt",
 		doorerr = "Deur Fout",

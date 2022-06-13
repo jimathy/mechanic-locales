@@ -344,14 +344,13 @@ Loc["lt"] = {
 	["payments"] = { --payments.lua
 		charge = "Apmokestinti klientą",
 	},	
-
 	["check"] = { --check_tunes.lua
 		plate = "Numeriai: [",
 		value = "]<br>Vertė: $",
 		unavail = "❌ Negalima",
 		notinstall = "Nesumontuota",
 		reinforced = "Sustiprintas kėbulas",
-		xenoninst = "Xenon žibintai,
+		xenoninst = "Xenon žibintai",
 		tireinst = "Sumontuota",
 		
 		label1 = "Variklis:",
@@ -443,7 +442,6 @@ Loc["lt"] = {
 		ductfull = "Šiai tr. priemonei negalite naudoti lipnios juostos",
 		nocar = "Šalia nėra tr. priemonės",
 	},
-	
 	["police"] = {
 		userepair = "Naudoti taisymo įrangą",
 		repair = "Taisyti",
@@ -451,8 +449,15 @@ Loc["lt"] = {
 		plates = "Numeriai",
 		livery = "Lipdukai",
 		spoiler = "Spoileriai",
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
 	},
-	
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "Tr. priemonės valymas",
 		doorerr = "Durų klaida",

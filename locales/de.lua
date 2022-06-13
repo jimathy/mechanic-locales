@@ -440,7 +440,6 @@ Loc["de"] = {
 		ductfull = "Sie können an diesem Auto kein Klebeband mehr verwenden",
 		nocar = "Es ist kein Fahrzeug in der nähe",
 	},
-	
 	["police"] = {
 		userepair = "Verwenden Sie die Reparaturstation",
 		repair = "Reparatur",
@@ -448,8 +447,15 @@ Loc["de"] = {
 		plates = "Platten",
 		livery = "Livery",
 		spoiler = "Spoilers",
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
 	},
-	
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "Fahrzeug Sauber",
 		doorerr = "Tür Error",

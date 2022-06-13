@@ -440,7 +440,6 @@ Loc["fr"] = {
 		ductfull = "Vous ne pouvez plus utiliser de ruban adhésif sur cette voiture",
 		nocar = "Il n'y a pas de véhicule à proximité",
 	},
-	
 	["police"] = {
 		userepair = "Utiliser la station de réparation",
 		repair = "Réparation",
@@ -448,8 +447,15 @@ Loc["fr"] = {
 		plates = "Plaques",
 		livery = "Motifs",
 		spoiler = "Aileron",
+		engine = "Repairing Engine...",
+		body = "Repairing Body...",
+		complete = "Repair Complete",
 	},
-	
+	["manual"] = {
+		tyres = "Replacing Damaged Tyres",
+		window = "Removing Damaged Windows",
+		doors = "Repairing Doors",
+	},
 	["extras"] = {
 		clean = "Véhicule propre",
 		doorerr = "Erreur de porte",
