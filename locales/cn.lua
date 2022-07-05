@@ -447,6 +447,7 @@ Loc["cn"] = {
 		plates = "车牌",
 		livery = "涂装",
 		spoiler = "尾翼",
+		cleaning = "车辆清洗中...",
 		engine = "引擎修复中...",
 		body = "车体修复中...",
 		complete = "车辆修复完成",
