@@ -447,6 +447,7 @@ Loc["ro"] = {
 		plates = "Placute",
 		livery = "Livery",
 		spoiler = "Spoiler",
+		cleaning = "Cleaning Vehicle...",
 		engine = "Repairing Engine...",
 		body = "Repairing Body...",
 		complete = "Repair Complete",

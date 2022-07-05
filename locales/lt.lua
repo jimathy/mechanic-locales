@@ -449,6 +449,7 @@ Loc["lt"] = {
 		plates = "Numeriai",
 		livery = "Lipdukai",
 		spoiler = "Spoileriai",
+		cleaning = "Cleaning Vehicle...",
 		engine = "Repairing Engine...",
 		body = "Repairing Body...",
 		complete = "Repair Complete",
