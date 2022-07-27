@@ -102,7 +102,7 @@ Loc["lt"] = {
 		removing = "Išmontuojate Xenon..",
 		remfail = "Nepavyko išmontuoti Xenon žibintų!",
 		closer = "Prieikite arčiau žibintų",
-		
+
 		notinstall = "Xenon žibintai nėra sumontuoti",
 		--Menus
 		neonheader1 = "Apšvietimo valdymas",
@@ -131,7 +131,7 @@ Loc["lt"] = {
 		menugrille = "Grotelės",
 		menuFBumper = "Priekinis buferis",
 		menuBBumper = "Galinis buferis",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "Įprastinis išmetimas..",
 		already = " jau sumontuotas", -- eg. "Stock Bumper already Installed"
@@ -144,7 +144,7 @@ Loc["lt"] = {
 		installed = "Puiku! Sumontavote eksterjero modifikaciją",
 		failed = "Nepavyko sumontuoti eksterjero modifikacijos!",
 		menuheader = " eksterjero modifikacija", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Apdaila A",
 		label2 = "Apdaila B",
 		label3 = "Bagažinė",
@@ -161,7 +161,7 @@ Loc["lt"] = {
 		installed = "Puiku! Sumontavote variklio gaubtą",
 		failed = "Nepavyko sumontuoti variklio gaubto!",
 		menuheader = " Hood Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "Puiku! Sumontavote garso signalą",
 		failed = "Nepavyko sumontuoti garso signalo!",
@@ -172,7 +172,7 @@ Loc["lt"] = {
 		installed = "Puiku! Sumontavote interjero modifikaciją",
 		failed = "Nepavyko sumontuoti interjero modifikacijos!",
 		menuheader = " interjero modifikacija", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Saugos lankai",
 		label2 = "Ornamentai",
 		label3 = "Prietaisų skydeliai",
@@ -182,14 +182,14 @@ Loc["lt"] = {
 		label7 = "Pavarų perjungimo svirtys",
 		label8 = "Plokštelės",
 		label9 = "Garsiakalbiai",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "Senas",
 		already = " jau yra naudojamas", -- eg. "Stock Bumper already Installed"
 		installed = "Puiku! Užklijavote naujus lipdukus ant tr. priemonės",
 		failed = "Nepavyko užklijuoti lipdukų!",
 		menuheader = " lipdukai", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "Turbina nėra sumontuota",
 		installing = "Puiku! Montuojate nitro sistemą",
@@ -198,7 +198,12 @@ Loc["lt"] = {
 		removing = "Išimate azoto talpą",
 		removed = "Išėmėte azoto talpą",
 		remfail = "Nepavyko išimti azoto talpos",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
 	["paint"] = { --paints.lua
 		primary = "Pirminė",
 		secondary = "Antrinė",
@@ -206,12 +211,12 @@ Loc["lt"] = {
 		wheel = "Ratai",
 		dashboard = "Prietaisų skydelis",
 		interior = "Interjeras",
-		
+
 		classic = "Klasikinė",
 		metallic = "Blizgi",
 		matte = "Matinė",
 		metals = "Metalinė",
-		
+
 		installing = "Puiku! Purškiate dažus",
 		installed = "Sėkmingai nudažėte",
 		failed = "Nepavyko nudažyti!",
@@ -242,7 +247,7 @@ Loc["lt"] = {
 		installed = "Puiku! Sumontavote ratlankius",
 		failed = "Nepavyko sumontuoti ratlankių!",
 		menuheader = "Ratlankių modifikavimas",
-		
+
 		label1 = "Sport",
 		label2 = "Muscle",
 		label3 = "Lowrider",
@@ -258,7 +263,7 @@ Loc["lt"] = {
 		label13 = "Priekinis ratas",
 		label14 = "Galinis ratas",
 		label15 = "Motociklo",
-		
+
 		labelcustom = "Importiniai ratlankiai",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -270,7 +275,7 @@ Loc["lt"] = {
 		installed = "Puiku! Sumontavote stogą",
 		failed = "Nepavyko sumontuoti stogo!",
 		menuheader = " stogo modifikavimas", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["seat"] = { --seat.lua
 		installed = "Puiku! Sumontavote sėdynes",
 		failed = "Nepavyko sumontuoti sėdynių!",
@@ -283,19 +288,19 @@ Loc["lt"] = {
 		menuskirt = "Slekščiai",
 		menuRF = "Dešinys slenkstis",
 		menuLF = "Kairys slenkstis",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "Puiku! Sumontavote spoilerį",
 		failed = "Nepavyko sumontuoti spoilerio!",
 		menuheader = " spoilerio modifikavimas", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "Ši spalva jau naudojama!",
 		installing = "Montuojate padangų dūmus..",
 		installed = "Puiku! Sumontavote padangų dūmus",
 		failed = "Nepavyko sumontuoti padangų dūmų!",
 		menuheader = " padangų dūmų modifikavimas", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		remove = "Pašalinti dūmus",
 		custom = "Norimas RBG",
 		black = "Juoda",
@@ -311,22 +316,22 @@ Loc["lt"] = {
 		ppink = "Blanki rožinė",
 		hpink = "Ryškiai rožinė",
 		purple = "Violetinė",
-		blacklight = "Blacklight",	
-	
+		blacklight = "Blacklight",
+
 		submit = "Patvirtinti",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "Puiku! Užtamsinote langus",
 		failed = "Nepavyko užtamsinti langų!",
 		menuheader = " langų atspalviai", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Tamsinimo pašalinimas",
 		label2 = "Privatus",
 		label3 = "Žalias",
 		label4 = "Šviesiai pilkas",
 		label5 = "Tamsiai pilkas",
 		label6 = "Juodas",
-	},	
+	},
 	["stores"] = {
 		browse = "Peržiūrėti parduotuvę",
 		tools = "Mechanikų įrankiai",
@@ -343,7 +348,7 @@ Loc["lt"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "Apmokestinti klientą",
-	},	
+	},
 	["check"] = { --check_tunes.lua
 		plate = "Numeriai: [",
 		value = "]<br>Vertė: $",
@@ -352,7 +357,7 @@ Loc["lt"] = {
 		reinforced = "Sustiprintas kėbulas",
 		xenoninst = "Xenon žibintai",
 		tireinst = "Sumontuota",
-		
+
 		label1 = "Variklis:",
 		label2 = "Stabdžiai:",
 		label3 = "Pakaba:",
@@ -364,7 +369,7 @@ Loc["lt"] = {
 		label9 = "Neperšaunamos padangos:",
 		label10 = "Galimų kosmetinių keitimų sąrašas",
 		label11 = "Tr. priemonė: ",
-		
+
 		label12 = " parinktys ]",
 		label13 = "- Eksterjero kosmetika -",
 		label14 = "- Interjero kosmetika - ",
@@ -387,7 +392,7 @@ Loc["lt"] = {
 		label31 = "Oro filtrai - [ ",
 		label32 = "Variklio statramsčiai - [ ",
 		label33 = "Arkos - [ ",
-		
+
 		label34 = "Saugos lankai - [ ",
 		label35 = "Ornamentai - [ ",
 		label36 = "Prietaisų skydeliai - [ ",
@@ -419,7 +424,7 @@ Loc["lt"] = {
 		materials = "Neturite pakankamai medžiagų",
 		checkeng = "Įvertinate variklio žalą..",
 		checkbody = "Įvertinate kėbulo žalą..",
-		
+
 		engine = "Variklis",
 		body = "Kėbulas",
 		radiator = "Radiatorius",
@@ -427,17 +432,17 @@ Loc["lt"] = {
 		brakes = "Stabdžiai",
 		clutch = "Sankaba",
 		tank = "Kuro bakas",
-		
+
 		repairing = "Taisote ",
 		repaired = " sutaisytas",
 		cancel = " taisymas atšauktas!",
 		nomaterials = "Saugykloje nėra pakankamai medžiagų",
 		failinfo = "Nepavyko gauti tr. priemonės informacijos, panaudokite įrankius dar kartą",
-		
+
 		cost = "<br>Kaina: ",
 		status = "Statusas: ",
 		doyou = "Ar tikrai norite suremontuoti ",
-		
+
 		applyduct = "Naudojate lipnią juostą..",
 		ductfull = "Šiai tr. priemonei negalite naudoti lipnios juostos",
 		nocar = "Šalia nėra tr. priemonės",
@@ -595,7 +600,13 @@ Loc["lt"] = {
 		{ name = "Festive 2 Loop", id = 48 },
 		{ name = "Festive 2", id = 49 },
 		{ name = "Festive 3 Loop", id = 50 },
-		{ name = "Festive 3", id = 51 }
+		{ name = "Festive 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Black", id = 0 },

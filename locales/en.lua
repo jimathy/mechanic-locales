@@ -1,5 +1,5 @@
 Loc["en"] = {
-	["common"] = { --commonly used strings
+		["common"] = { --commonly used strings
 		owned = "Vehicle isn't owned, cannot modify",
 		close = "❌ Close",
 		ret = "⬅️ Return",
@@ -100,7 +100,7 @@ Loc["en"] = {
 		removing = "Removing Xenon..",
 		remfail = "Xenon removal failed!",
 		closer = "Move closer to the headlights",
-		
+
 		notinstall = "Xenons Headlights Not Installed",
 		--Menus
 		neonheader1 = "Lighting Controls",
@@ -129,7 +129,7 @@ Loc["en"] = {
 		menugrille = "Grille",
 		menuFBumper = "Front Bumper",
 		menuBBumper = "Back Bumper",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "Stock Exhaust..",
 		already = " already installed", -- eg. "Stock Bumper already Installed"
@@ -142,7 +142,7 @@ Loc["en"] = {
 		installed = "Success! Exterior Mod Installed",
 		failed = "Exterior Mod installation failed!",
 		menuheader = " Exterior Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Trim A",
 		label2 = "Trim B",
 		label3 = "Trunk",
@@ -159,7 +159,7 @@ Loc["en"] = {
 		installed = "Success! Hood Installed",
 		failed = "Hood installation failed!",
 		menuheader = " Hood Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "Success! Horn Installed",
 		failed = "Horn installation failed!",
@@ -170,7 +170,7 @@ Loc["en"] = {
 		installed = "Success! Interior Mod Installed",
 		failed = "Interior Mod installation failed!",
 		menuheader = " Interior Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Roll Cages",
 		label2 = "Ornaments",
 		label3 = "Dashboards",
@@ -180,14 +180,14 @@ Loc["en"] = {
 		label7 = "Shifter Leavers",
 		label8 = "Plaques",
 		label9 = "Speakers",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "old",
 		already = " already installed", -- eg. "Stock Bumper already Installed"
 		installed = "Success! Livery Installed",
 		failed = "Livery installation failed!",
 		menuheader = " Livery Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "Turbo isn't installed",
 		installing = "Success! Installing NOS",
@@ -196,7 +196,12 @@ Loc["en"] = {
 		removing = "Removing NOS Bottle",
 		removed = "NOS Bottle Removed",
 		remfail = "Failed to remove NOS bottle",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
 	["paint"] = { --paints.lua
 		primary = "Primary",
 		secondary = "Secondary",
@@ -204,12 +209,12 @@ Loc["en"] = {
 		wheel = "Wheel",
 		dashboard = "Dashboard",
 		interior = "Interior",
-		
+
 		classic = "Classic",
 		metallic = "Metallic",
 		matte = "Matte",
 		metals = "Metals",
-		
+
 		installing = "Success! Installing Paint",
 		installed = "Success! Paint Installed",
 		failed = "Paint installation failed!",
@@ -219,7 +224,7 @@ Loc["en"] = {
 		select = "Selection:",
 		finish = "Finish Select:",
 		error = "Hex Code input needs to be 6 characters",
-		customheader = "Custom HEX",
+		customheader = "Custom HEX and RGB",
 		chrome = "Chrome",
 		hex = "HEX Picker",
 		rgb = "RGB Picker",
@@ -240,7 +245,7 @@ Loc["en"] = {
 		installed = "Success! Rims Installed",
 		failed = "Rims installation failed!",
 		menuheader = "Rims Modification",
-		
+
 		label1 = "Sport",
 		label2 = "Muscle",
 		label3 = "Lowrider",
@@ -256,7 +261,7 @@ Loc["en"] = {
 		label13 = "Front Wheel",
 		label14 = "Back Wheel",
 		label15 = "Motorcycle",
-		
+
 		labelcustom = "Custom Rims",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -272,7 +277,7 @@ Loc["en"] = {
 	["seat"] = { --seat.lua
 		installed = "Success! Seat Installed",
 		failed = "Seat installation failed!",
-		menuheader = " Seat Modification", 
+		menuheader = " Seat Modification",
 	},
 	["skirts"] = { --skirts.lua
 		installed = "Success! Skirt Installed",
@@ -281,19 +286,19 @@ Loc["en"] = {
 		menuskirt = "Skirts",
 		menuRF = "Right Fender",
 		menuLF = "Left Fender",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "Success! Spoiler Installed",
 		failed = "Spoiler installation failed!",
 		menuheader = " Spoiler Modification",
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "This colour is currently applied!",
 		installing = "Installing Tire Smoke..",
 		installed = "Success! Smoke Installed",
 		failed = "Smoke installation failed!",
 		menuheader = " Tire Smoke Modification",
-		
+
 		remove = "Remove Smoke",
 		custom = "CUSTOM RBG",
 		black = "Black",
@@ -309,22 +314,22 @@ Loc["en"] = {
 		ppink = "Pony Pink",
 		hpink = "Hot Pink",
 		purple = "Purple",
-		blacklight = "Blacklight",	
-	
+		blacklight = "Blacklight",
+
 		submit = "Submit",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "Success! Tint Installed",
 		failed = "Tint installation failed!",
 		menuheader = " Window Tints",
-		
+
 		label1 = "Tint Removal",
 		label2 = "Limo",
 		label3 = "Green",
 		label4 = "Light Smoke",
 		label5 = "Dark Smoke",
 		label6 = "Pure Black",
-	},	
+	},
 	["stores"] = {
 		browse = "Browse Store",
 		tools = "Mechanic Tools",
@@ -350,7 +355,7 @@ Loc["en"] = {
 		reinforced = "Reinforced Body",
 		xenoninst = "Xenon Installed",
 		tireinst = "Installed",
-		
+
 		label1 = "Engines:",
 		label2 = "Brakes:",
 		label3 = "Suspension:",
@@ -362,7 +367,7 @@ Loc["en"] = {
 		label9 = "Bulletproof Tyres:",
 		label10 = "List of Possible Cosmetics",
 		label11 = "Vehicle: ",
-		
+
 		label12 = " options ]",
 		label13 = "- External Cosmetics -",
 		label14 = "- Internal Cosmetics - ",
@@ -385,7 +390,7 @@ Loc["en"] = {
 		label31 = "Air Filters - [ ",
 		label32 = "Engine Strut - [ ",
 		label33 = "Arch Covers - [ ",
-		
+
 		label34 = "Roll Cages - [ ",
 		label35 = "Ornaments - [ ",
 		label36 = "Dashboards - [ ",
@@ -417,7 +422,7 @@ Loc["en"] = {
 		materials = "You don't have enough materials",
 		checkeng = "Checking the Engine damage..",
 		checkbody = "Checking the Body damage..",
-		
+
 		engine = "Engine",
 		body = "Body",
 		radiator = "Radiator",
@@ -425,17 +430,17 @@ Loc["en"] = {
 		brakes = "Brakes",
 		clutch = "Clutch",
 		tank = "Fuel Tank",
-		
+
 		repairing = "Repairing ",
 		repaired = " fully repaired",
 		cancel = " Repair cancelled!",
 		nomaterials = "There Are Not Enough Materials In The Safe",
 		failinfo = "Failed to retreive car info, try using the tools again",
-		
+
 		cost = "<br>Cost: ",
 		status = "Status: ",
 		doyou = "Do you want to repair the ",
-		
+
 		applyduct = "Applying Duct Tape..",
 		ductfull = "You can't use any more Duct Tape on this car",
 		nocar = "There is no vehicle nearby",
@@ -512,7 +517,7 @@ Loc["en"] = {
 		{ name = "North Yankton", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "White", R = 255, G = 255, B = 255 },
+		{ name = "White", R = 255, G = 255, B = 255 },
         { name = "Blue", R = 2, G = 21, B = 255 },
         { name = "Electric Blue", R = 3, G = 83, B = 255 },
         { name = "Mint Green", R = 0, G = 255, B = 140 },
@@ -593,7 +598,13 @@ Loc["en"] = {
 		{ name = "Festive 2 Loop", id = 48 },
 		{ name = "Festive 2", id = 49 },
 		{ name = "Festive 3 Loop", id = 50 },
-		{ name = "Festive 3", id = 51 }
+		{ name = "Festive 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Black", id = 0 },

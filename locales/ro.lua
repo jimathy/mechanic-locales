@@ -64,7 +64,7 @@ Loc["ro"] = {
 	},
 	["tires"] = { --tires.lua
 		--Drift
-   		already = "Cauciucurile de drift au fost deja montate",
+		already = "Cauciucurile de drift au fost deja montate",
 		install = "Se monteaza cauciucurile de drift",
 		installed = "Cauciucurile de drift au fost montate",
 		failed = "Montarea caucicurilor de drift a esuat!",
@@ -100,7 +100,7 @@ Loc["ro"] = {
 		removing = "Se scoate xenonul..",
 		remfail = "Scoaterea xenonului a esuat",
 		closer = "Trebuie sa fi langa faruri",
-		
+
 		notinstall = "Xenoanele nu sunt montate",
 		--Menus
 		neonheader1 = "Contol faruri",
@@ -129,7 +129,7 @@ Loc["ro"] = {
 		menugrille = "Grilaj",
 		menuFBumper = "Bara fata",
 		menuBBumper = "Bara spate",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "Toba de esapament stock..",
 		already = " Deja montata", -- eg. "Stock Bumper already Installed"
@@ -142,7 +142,7 @@ Loc["ro"] = {
 		installed = "Mod exterior instalat",
 		failed = "Montarea modului exterior a esuat",
 		menuheader = "Modificari exterior", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Trim A",
 		label2 = "Trim B",
 		label3 = "Portbagaj",
@@ -159,7 +159,7 @@ Loc["ro"] = {
 		installed = "Capota montata",
 		failed = "Montarea capotei a esuat",
 		menuheader = "Modificari capota", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "Claxon montat",
 		failed = "Montarea claxonului a esuat",
@@ -170,7 +170,7 @@ Loc["ro"] = {
 		installed = "Mod interior montat",
 		failed = "Montarea modului interior a esuat",
 		menuheader = "Modificari interior", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Bare de sustinere",
 		label2 = "Ornamente",
 		label3 = "Panou",
@@ -180,14 +180,14 @@ Loc["ro"] = {
 		label7 = "Schimbator de viteza",
 		label8 = "Placute",
 		label9 = "Boxe",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "Vechi",
 		already = "Deja montat", -- eg. "Stock Bumper already Installed"
 		installed = "Livery a fost montat",
 		failed = "Montarea Lyvery a esuat",
 		menuheader = "Modificari livery", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "NOS nu este montat",
 		installing = "Se monteaza NOS",
@@ -196,7 +196,12 @@ Loc["ro"] = {
 		removing = "Scoatem butelia de NOS",
 		removed = "Butelia NOS a fost scoasa",
 		remfail = "Scoaterea buteliei NOS a esuat",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
 	["paint"] = { --paints.lua
 		primary = "Culoare primara",
 		secondary = "Culoare secundara",
@@ -204,12 +209,12 @@ Loc["ro"] = {
 		wheel = "Roti",
 		dashboard = "Cadrane",
 		interior = "Interior",
-		
+
 		classic = "Classic",
 		metallic = "Metalic",
 		matte = "Mat",
 		metals = "Metalic",
-		
+
 		installing = "Se aplica culoarea",
 		installed = "Culoarea a fost aplicata",
 		failed = "Aplicarea culorii a esuat",
@@ -240,7 +245,7 @@ Loc["ro"] = {
 		installed = "Jantele au fost instalate",
 		failed = "Instalarea jantelor a esuat",
 		menuheader = "Modificari jante",
-		
+
 		label1 = "Sport",
 		label2 = "Muscle",
 		label3 = "Lowrider",
@@ -256,7 +261,7 @@ Loc["ro"] = {
 		label13 = "Front Wheel",
 		label14 = "Back Wheel",
 		label15 = "Motorcycle",
-		
+
 		labelcustom = "Custom Rims",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -268,7 +273,7 @@ Loc["ro"] = {
 		installed = "Plafon montat",
 		failed = "Montarea plafonului a esuat",
 		menuheader = "Modificari plafon", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["seat"] = { --seat.lua
 		installed = "Scaune montate",
 		failed = "Montarea scaunelor au esuat",
@@ -281,19 +286,19 @@ Loc["ro"] = {
 		menuskirt = "Praguri",
 		menuRF = "Fender drept",
 		menuLF = "Fender stang",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "Spoiler montat",
 		failed = "Montarea spoilerului a esuat",
 		menuheader = "Modificari spoiler", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "Culoarea e deja aplicata",
 		installing = "Montam culoarea la cauciucuri..",
 		installed = "Culoare aplicata",
 		failed = "Aplicarea culorii a esuat",
 		menuheader = "Modificari culoare cauciucuri", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		remove = "Remove Smoke",
 		custom = "CUSTOM RBG",
 		black = "Negru",
@@ -309,22 +314,21 @@ Loc["ro"] = {
 		ppink = "Pony Pink",
 		hpink = "Hot Pink",
 		purple = "Mov",
-		blacklight = "Blacklight",	
-	
+		blacklight = "Blacklight",
+
 		submit = "Submit",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "Folie geamuri aplicata",
 		failed = "Aplicare folie geamuri esuata",
 		menuheader = "Modificari folie geamuri", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
 		label1 = "Scoatere folie geamuri",
 		label2 = "Lime",
 		label3 = "Verde",
 		label4 = "Light Smoke",
 		label5 = "Dark Smoke",
 		label6 = "Pure Black",
-	},	
+	},
 	["stores"] = {
 		browse = "Cauta in magazin",
 		tools = "Scule mecanic",
@@ -341,7 +345,7 @@ Loc["ro"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "Scoate factura",
-	},	
+	},
 	["check"] = { --check_tunes.lua
 		plate = "Placuta",
 		value = "Valoare",
@@ -350,7 +354,6 @@ Loc["ro"] = {
 		reinforced = "Ranforsare ",
 		xenoninst = "Xenon Instalat",
 		tireinst = "Instalat",
-		
 		label1 = "Motor",
 		label2 = "Frane:",
 		label3 = "Suspensii",
@@ -362,7 +365,6 @@ Loc["ro"] = {
 		label9 = "Cauciucuri antiglont:",
 		label10 = "Lista Modificari",
 		label11 = "Vehicul: ",
-		
 		label12 = " Optiuni",
 		label13 = "- Modificari externe -",
 		label14 = "- Modificari interne - ",
@@ -385,7 +387,6 @@ Loc["ro"] = {
 		label31 = "Filtru aer - [ ",
 		label32 = "Engine Strut - [ ",
 		label33 = "Faruri - [ ",
-		
 		label34 = "Bare de sustinere [ ",
 		label35 = "Ornamente- [ ",
 		label36 = "Bord - [ ",
@@ -417,7 +418,6 @@ Loc["ro"] = {
 		materials = "Nu ai destule materiale",
 		checkeng = "Verifica daune motor..",
 		checkbody = "verifica daune caroserie..",
-		
 		engine = "Motor",
 		body = "Caroserie",
 		radiator = "Radiator",
@@ -425,17 +425,14 @@ Loc["ro"] = {
 		brakes = "Frane",
 		clutch = "Ambreiaj",
 		tank = "Rezervor de benzina",
-		
 		repairing = "Repara",
 		repaired = " Reparat complet",
 		cancel = " Reparatie anulata",
 		nomaterials = "Nu sunt destule materiale in seif",
 		failinfo = "Nu ai reusit sa afli informatiile vehiculului,incearca sa folosesti sculele din nou",
-		
 		cost = "Pret ",
 		status = "Status: ",
 		doyou = "Vrei sa repari?",
-		
 		applyduct = "Aplica banda izoliera..",
 		ductfull = "Prea multa banda izoliera ,dao dracu ca nu-i dacie",
 		nocar = "Nu exista nici un vehicul in apropiere",
@@ -512,7 +509,7 @@ Loc["ro"] = {
 		{ name = "North Yankton", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "White", R = 255, G = 255, B = 255 },
+		{ name = "White", R = 255, G = 255, B = 255 },
         { name = "Blue", R = 2, G = 21, B = 255 },
         { name = "Electric Blue", R = 3, G = 83, B = 255 },
         { name = "Mint Green", R = 0, G = 255, B = 140 },
@@ -593,7 +590,13 @@ Loc["ro"] = {
 		{ name = "Festive 2 Loop", id = 48 },
 		{ name = "Festive 2", id = 49 },
 		{ name = "Festive 3 Loop", id = 50 },
-		{ name = "Festive 3", id = 51 }
+		{ name = "Festive 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Black", id = 0 },

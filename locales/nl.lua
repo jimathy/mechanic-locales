@@ -100,7 +100,7 @@ Loc["nl"] = {
 		verwijderen = "Xenon verwijderen...",
 		remfail = "Xenon verwijderen mislukt!",
 		closer = "Ga dichter naar de koplampen",
-		
+
 		notinstall = "Xenons koplampen niet geïnstalleerd",
 		--Menus
 		neonheader1 = "Lichtsturingen",
@@ -129,7 +129,7 @@ Loc["nl"] = {
 		menugrille = "Gril",
 		menuFBumper = "Voor Bumper",
 		menuBBumper = "Achter Bumper",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "Standaard Uitlaat..",
 		already = " reeds geïnstalleerd", -- eg. "Stock Bumper already Installed"
@@ -142,7 +142,7 @@ Loc["nl"] = {
 		installed = "Success! Exterior geinstalleerd",
 		failed = "Exterior installatie mislukt!",
 		menuheader = " Exterior Wijziging", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Trim A",
 		label2 = "Trim B",
 		label3 = "Kofferbak",
@@ -159,7 +159,7 @@ Loc["nl"] = {
 		installed = "Succes! Motorkap geïnstalleerd",
 		failed = "Motorkap installatie mislukt!",
 		menuheader = "Motorkap modificatie", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "Succes! Claxon geïnstalleerd",
 		failed = "Installatie claxon mislukt!",
@@ -170,7 +170,7 @@ Loc["nl"] = {
 		installed = "Succes! Interieur Mod Geïnstalleerd",
 		failed = "Interieur aanpassing mislukt!",
 		menuheader = "Interieur Aanpassing", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Rolkooien",
 		label2 = "Ornamenten",
 		label3 = "Dashboards",
@@ -180,22 +180,28 @@ Loc["nl"] = {
 		label7 = "Schakelpookknoppen",
 		label8 = "Platen",
 		label9 = "Luidsprekers",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "oud",
 		already = " reeds geplakt", -- eg. "Stock Bumper already Installed"
 		installed = "Succes! Sticker geplakt",
 		failed = "Sticker plakken mislukt!",
 		menuheader = " Stickers Aanpassing", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "Turbo is niet geïnstalleerd",
 		nstalling = "Succes! NOS Installeren",
 		installed = "Succes! NOS geïnstalleerd",
 		failed = "NOS installatie mislukt!",
+		removing = "Removing NOS Bottle",
 		removed = "NOS verwijderd",
 		remfail = "Kan NOS niet verwijderen",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
 	["paint"] = { --paints.lua
 		primary = "Primair",
 		secundair = "Secundair",
@@ -203,12 +209,12 @@ Loc["nl"] = {
 		wheel = "Velg",
 		dashboard = "Dashboard",
 		interior = "Interieur",
-		
+
 		classic = "Klassiek",
 		metallic = "Metallic",
 		matte = "Matte",
 		metals = "Metalen",
-		
+
 		installed = "Succes! Spuiten gelukt",
 		failed = "Overspuiten mislukt!",
 		menuheader = "Overspuiten",
@@ -238,7 +244,7 @@ Loc["nl"] = {
 		installed = "Succes! Velgen geïnstalleerd",
 		failed = "Velgen installatie mislukt!",
 		menuheader = "Velgen Modificatie",
-		
+
 		label1 = "Sport",
 		label2 = "Muscle",
 		label3 = "Lowrider",
@@ -254,7 +260,7 @@ Loc["nl"] = {
 		label13 = "Front Wheel",
 		label14 = "Back Wheel",
 		label15 = "Motorcycle",
-		
+
 		labelcustom = "Custom Rims",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -266,7 +272,7 @@ Loc["nl"] = {
 		installed = "Succes! Dak geïnstalleerd",
 		failed = "Dakinstallatie mislukt!",
 		menuheader = " Dakaanpassing", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["seat"] = { --seat.lua
 		installed = "Succes! Stoel geïnstalleerd",
 		failed = "Stoelinstallatie mislukt!",
@@ -279,19 +285,19 @@ Loc["nl"] = {
 		menuskirt = "Skirts",
 		menuRF = "Rechter spatbord",
 		menuLF = "Linker Spatbord",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "Succes! Spoiler Geïnstalleerd",
 		failed = "Spoiler installatie mislukt!",
 		menuheader = " Spoiler Wijziging", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "Deze kleur is momenteel toegepast!",
 		installing = "Bandenrook wordt geïnstalleerd...",
 		installed = "Succes! Smoke geïnstalleerd",
 		failed = "Rookinstallatie mislukt!",
 		menuheader = " Bandenrook modificatie", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		remove = "Verwijder rook",
 		custom = "CUSTOM RBG",
 		black = "Zwart",
@@ -307,22 +313,22 @@ Loc["nl"] = {
 		ppink = "Pony Pink",
 		hpink = "Hot Pink",
 		purple = "Paars",
-		blacklight = "Blacklight",	
-	
+		blacklight = "Blacklight",
+
 		submit = "Verzenden",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "Succes! Tint geïnstalleerd",
 		failed = "Tint installatie mislukt!",
 		menuheader = " Raam Tints", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Tint verwijderen",
 		label2 = "Limo",
 		label3 = "Groen",
 		label4 = "Licht Rook",
 		label5 = "Donker Rook",
 		label6 = "Puur Zwart",
-	},	
+	},
 	["stores"] = {
 		browse = "Winkel doorbladeren",
 		tools = "Mechanisch Gereedschap",
@@ -339,7 +345,7 @@ Loc["nl"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "Klant rekening geven",
-	},	
+	},
 	["check"] = { --check_tunes.lua
 		plate = "Kenteken [",
 		value = "]<br>Waarde: €",
@@ -348,7 +354,7 @@ Loc["nl"] = {
 		reinforced = "Versterk Plaatwerk",
 		xenoninst = "Xenon Geïnstalleerd",
 		tireinst = " Geïnstalleerd",
-		
+
 		label1 = "Motoren:",
 		label2 = "Remmen:",
 		label3 = "Ophanging:",
@@ -360,7 +366,7 @@ Loc["nl"] = {
 		label9 = "Kogelvrije banden:",
 		label10 = "Lijst van mogelijke aanpassingen",
 		label11 = "Voertuig: ",
-		
+
 		label12 = " opties ]",
 		label13 = "- Externe cosmetica -",
 		label14 = "- Interne cosmetica - ",
@@ -383,7 +389,7 @@ Loc["nl"] = {
 		label31 = "Luchtfilters - [ ",
 		label32 = "Motorsteunen - [ ",
 		label33 = "Motorkappen - [ ",
-		
+
 		label34 = "Rolkooien - [ ",
 		label35 = "Ornamenten - [ ",
 		label36 = "Dashboards - [ ",
@@ -415,7 +421,7 @@ Loc["nl"] = {
 		materials = "Je hebt niet genoeg materialen",
 		checkeng = "De schade aan de motor controleren...",
 		checkbody = "De schade aan het plaatwerk controleren...",
-		
+
 		engine = "Motor",
 		body = "Plaatwerk",
 		radiator = "Radiator",
@@ -423,17 +429,17 @@ Loc["nl"] = {
 		brakes = "Remmen",
 		clutch = "Koppeling",
 		tank = "Brandstoftank",
-		
+
 		repairing = "Repareren ",
 		repaired = " volledig gerepareerd",
 		cancel = "Reparatie geannuleerd!",
 		nomaterials = "Er zijn niet genoeg materialen in de kluis",
 		failinfo = " Niet gelukt auto-info op te halen, probeer het gereedschap opnieuw te gebruiken",
-		
+
 		cost = "<br>Kosten: ",
 		status = "Status: ",
 		doyou = "Herstellen van de ",
-		
+
 		applyduct = "Aanbrengen van Duct Tape...",
 		ductfull = "U kunt geen Duct Tape meer gebruiken op deze auto",
 		nocar = "Er is geen voertuig in de buurt",
@@ -591,7 +597,13 @@ Loc["nl"] = {
 		{ name = "Festive 2 Loop", id = 48 },
 		{ name = "Festive 2", id = 49 },
 		{ name = "Festive 3 Loop", id = 50 },
-		{ name = "Festive 3", id = 51 }
+		{ name = "Festive 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Black", id = 0 },

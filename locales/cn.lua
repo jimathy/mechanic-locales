@@ -100,7 +100,7 @@ Loc["cn"] = {
 		removing = "移除氙气灯..",
 		remfail = "移除氙气灯失败!",
 		closer = "靠近大灯",
-		
+
 		notinstall = "未安装氙气灯",
 		--Menus
 		neonheader1 = "氙气灯控制",
@@ -129,7 +129,7 @@ Loc["cn"] = {
 		menugrille = "中网",
 		menuFBumper = "前保险杠",
 		menuBBumper = "后保险杠",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "原厂排气..",
 		already = "已安装", -- eg. "Stock Bumper already Installed"
@@ -142,7 +142,7 @@ Loc["cn"] = {
 		installed = "外观部件安装成功",
 		failed = "外观部件安装失败!",
 		menuheader = " 外观部件改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "部件A",
 		label2 = "部件B",
 		label3 = "后备箱",
@@ -159,7 +159,7 @@ Loc["cn"] = {
 		installed = "引擎盖安装成功",
 		failed = "引擎盖安装失败!",
 		menuheader = " 引擎盖改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "喇叭安装成功",
 		failed = "喇叭安装失败!",
@@ -170,7 +170,7 @@ Loc["cn"] = {
 		installed = "内饰部件安装成功",
 		failed = "内饰部件安装失败!",
 		menuheader = " 内饰部件改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "防滚架",
 		label2 = "装饰品",
 		label3 = "仪表台",
@@ -180,14 +180,14 @@ Loc["cn"] = {
 		label7 = "换挡杆",
 		label8 = "装饰牌",
 		label9 = "音响",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "旧的",
 		already = " 已安装", -- eg. "Stock Bumper already Installed"
 		installed = "涂装安装成功",
 		failed = "涂装安装失败!",
 		menuheader = " 涂装改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "未安装涡轮增压器",
 		installing = "NOS安装中..",
@@ -196,7 +196,12 @@ Loc["cn"] = {
 		removing = "移除NOS罐",
 		removed = "NOS罐已移除",
 		remfail = "NOS罐移除失败!",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
 	["paint"] = { --paints.lua
 		primary = "主色调",
 		secondary = "副色调",
@@ -204,12 +209,12 @@ Loc["cn"] = {
 		wheel = "轮圈颜色",
 		dashboard = "仪表颜色",
 		interior = "内饰颜色",
-		
+
 		classic = "经典色",
 		metallic = "仿金属色",
 		matte = "哑光",
 		metals = "金属色",
-		
+
 		installing = "更改喷漆颜色中..",
 		installed = "喷漆颜色更改成功",
 		failed = "喷漆颜色更改失败!",
@@ -240,7 +245,7 @@ Loc["cn"] = {
 		installed = "轮圈安装成功",
 		failed = "轮圈安装失败!",
 		menuheader = "轮圈改装",
-		
+
 		label1 = "运动",
 		label2 = "肌肉",
 		label3 = "跳跳",
@@ -256,7 +261,7 @@ Loc["cn"] = {
 		label13 = "前轮",
 		label14 = "后轮",
 		label15 = "摩托",
-		
+
 		labelcustom = "自定义轮圈",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -268,7 +273,7 @@ Loc["cn"] = {
 		installed = "车棚安装成功",
 		failed = "车棚安装失败!",
 		menuheader = " 车棚改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["seat"] = { --seat.lua
 		installed = "车座安装成功",
 		failed = "车座安装失败!",
@@ -281,19 +286,19 @@ Loc["cn"] = {
 		menuskirt = "侧裙",
 		menuRF = "右侧叶子板",
 		menuLF = "左侧叶子板",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "尾翼安装成功",
 		failed = "尾翼安装失败!",
 		menuheader = " 尾翼改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "这个颜色当前已经在使用了!",
 		installing = "更改车轮烟雾颜色..",
 		installed = "车轮烟雾更改成功",
 		failed = "车轮烟雾更改失败!",
 		menuheader = " 车轮烟雾改装", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		remove = "移除烟雾",
 		custom = "自定义RBG",
 		black = "黑色",
@@ -309,22 +314,22 @@ Loc["cn"] = {
 		ppink = "小马粉",
 		hpink = "热粉",
 		purple = "紫色",
-		blacklight = "黑光",	
-	
+		blacklight = "黑光",
+
 		submit = "提交",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "玻璃膜安装成功",
 		failed = "玻璃膜安装失败!",
 		menuheader = " 玻璃膜", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "移除",
 		label2 = "透明",
 		label3 = "绿",
 		label4 = "淡雾",
 		label5 = "黑雾",
 		label6 = "纯黑",
-	},	
+	},
 	["stores"] = {
 		browse = "查看商店",
 		tools = "技工工具",
@@ -350,7 +355,7 @@ Loc["cn"] = {
 		reinforced = "车身已强化",
 		xenoninst = "氙气灯已安装",
 		tireinst = "已安装",
-		
+
 		label1 = "引擎:",
 		label2 = "刹车:",
 		label3 = "避震:",
@@ -362,7 +367,7 @@ Loc["cn"] = {
 		label9 = "防弹轮胎:",
 		label10 = "可改装的配件清单",
 		label11 = "车辆: ",
-		
+
 		label12 = " 个选项 ]",
 		label13 = "- 外观部件 -",
 		label14 = "- 内饰部件 - ",
@@ -385,7 +390,7 @@ Loc["cn"] = {
 		label31 = "空气滤网 - [ ",
 		label32 = "发动机构型 - [ ",
 		label33 = "灯罩 - [ ",
-		
+
 		label34 = "防滚架 - [ ",
 		label35 = "装饰品 - [ ",
 		label36 = "仪表台 - [ ",
@@ -417,7 +422,7 @@ Loc["cn"] = {
 		materials = "你没有足够的材料",
 		checkeng = "查看引擎受损状况..",
 		checkbody = "查看车体受损状况..",
-		
+
 		engine = "引擎",
 		body = "车体",
 		radiator = "散热器",
@@ -425,17 +430,17 @@ Loc["cn"] = {
 		brakes = "刹车",
 		clutch = "离合器",
 		tank = "油箱k",
-		
+
 		repairing = "正在修理",
 		repaired = "完全修复",
 		cancel = "修复取消!",
 		nomaterials = "仓库里没有足够的材料",
 		failinfo = "获取车辆信息失败, 请再次尝试使用工具箱",
-		
+
 		cost = "<br>花费: ",
 		status = "状态: ",
 		doyou = "你是否想修理",
-		
+
 		applyduct = "用胶带修复..",
 		ductfull = "你不能在这辆车上用更多的胶带了",
 		nocar = "附近没有车啊",
@@ -501,7 +506,7 @@ Loc["cn"] = {
 		cantspawn = " 挡住了",
 		marker = "工作车辆已在地图上标记",
 		markername = "工作车辆",
-	},	
+	},
 	--Below are names of items/mods that can't be reteived natively
 	vehiclePlateOptions = {
 		{ name = "白底蓝字#1", id = 0 },
@@ -512,7 +517,7 @@ Loc["cn"] = {
 		{ name = "北扬克顿", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "白色", R = 255, G = 255, B = 255 },
+		{ name = "白色", R = 255, G = 255, B = 255 },
         { name = "蓝色", R = 2, G = 21, B = 255 },
         { name = "电子蓝", R = 3, G = 83, B = 255 },
         { name = "青绿色", R = 0, G = 255, B = 140 },
@@ -593,7 +598,13 @@ Loc["cn"] = {
 		{ name = "庆典 2循环", id = 48 },
 		{ name = "庆典 2", id = 49 },
 		{ name = "庆典 3循环", id = 50 },
-		{ name = "庆典 3", id = 51 }
+		{ name = "庆典 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "黑色", id = 0 },

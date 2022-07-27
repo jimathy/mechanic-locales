@@ -100,7 +100,7 @@ Loc["fr"] = {
 		removing = "Supressions des phares xénons..",
 		remfail = "Échec de la suppression des phares xénon !",
 		closer = "Rapprochez-vous des phares",
-		
+
 		notinstall = "Phares xénons non installés",
 		--Menus
 		neonheader1 = "Commandes d'éclairage",
@@ -129,7 +129,7 @@ Loc["fr"] = {
 		menugrille = "Grille",
 		menuFBumper = "Pare-choc avant",
 		menuBBumper = "Pare-choc arriere",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "Échappement d'origine..",
 		already = " déjà installé", -- eg. "Stock Bumper already Installed"
@@ -142,7 +142,7 @@ Loc["fr"] = {
 		installed = "Carrosserie installé avec succès",
 		failed = "L'installation de la carrosserie a échoué",
 		menuheader = "Modificatio extérieure", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Garniture A",
 		label2 = "Garniture B",
 		label3 = "Coffre",
@@ -159,7 +159,7 @@ Loc["fr"] = {
 		installed = "Cappot installé avec succès",
 		failed = "L'installation du capot a échoué",
 		menuheader = " Modification du capot", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "Klaxon installé avec succès",
 		failed = "L'installation du klaxon a échoué!",
@@ -170,7 +170,7 @@ Loc["fr"] = {
 		installed = "Interieur installé avec succès",
 		failed = "L'installation de l'interieur a échoué",
 		menuheader = " modification de l'interieur", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Cages de sécurité",
 		label2 = "accessoire",
 		label3 = "Tableaux de bord",
@@ -180,14 +180,14 @@ Loc["fr"] = {
 		label7 = "Levier de vitesses",
 		label8 = "Plaques",
 		label9 = "Enceintes",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "Motifs",
 		already = " Motifs déja installé", -- eg. "Stock Bumper already Installed"
 		installed = "Motif installé avec succès",
 		failed = "L'installation du motif a échoué!",
 		menuheader = " Modification motifs", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "Turbo n'est pas installé",
 		installing = "Instalation du NOS en cours",
@@ -196,7 +196,12 @@ Loc["fr"] = {
 		removing = "Retrait de la bouteille NOS",
 		removed = "Bouteille de NOS retirée",
 		remfail = "Échec de la suppression de la bouteille NOS",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
 	["paint"] = { --paints.lua
 		primary = "Primaire",
 		secondary = "Secondaire",
@@ -204,12 +209,12 @@ Loc["fr"] = {
 		wheel = "Roues",
 		dashboard = "Tableau de bord",
 		interior = "Interieur",
-		
+
 		classic = "Classique",
 		metallic = "Metallique",
 		matte = "Mat",
 		metals = "Metaux",
-		
+
 		installing = "Installation de la peinture en cours",
 		installed = "Peinture installé avec succès",
 		failed = "L'installation de la peinture a échoué",
@@ -240,7 +245,7 @@ Loc["fr"] = {
 		installed = "Jantes installés avec succès ",
 		failed = "L'installation des jantes a échoué",
 		menuheader = "Modification des jantes",
-		
+
 		label1 = "Sport",
 		label2 = "Muscle",
 		label3 = "Lowrider",
@@ -256,7 +261,7 @@ Loc["fr"] = {
 		label13 = "Roue avant",
 		label14 = "Roue arriere",
 		label15 = "moto",
-		
+
 		labelcustom = "Jantes personnalisées",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -268,7 +273,7 @@ Loc["fr"] = {
 		installed = "Toit installé avec succès",
 		failed = "L'installation du toit a échoué",
 		menuheader = " Modifications du toit", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["seat"] = { --seat.lua
 		installed = "Siéges installés avec succès",
 		failed = "L'installations des siéges a échoué",
@@ -281,19 +286,19 @@ Loc["fr"] = {
 		menuskirt = "Bas de caisses",
 		menuRF = "Ailes droite",
 		menuLF = "Ailes gauche",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "Aileron installé avec succès",
 		failed = "L'installation de l'aileron a échoué",
 		menuheader = "Modifiaction de l'aileron", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "Cette couleur est actuellement appliquée !",
 		installing = "Installation de la fumée des pneus..",
 		installed = "Fumée des pneus installés avec succès",
 		failed = "L'installation de la fumée a échoué !",
 		menuheader = "Modification de la fumée des pneus", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		remove = "Supprimer la fumée",
 		custom = "RGB PERSONNALISÉ",
 		black = "Noir",
@@ -309,22 +314,22 @@ Loc["fr"] = {
 		ppink = "Rose",
 		hpink = "Rose vif",
 		violet = "Violet",
-		blacklight = "Lumiere noir",	
-	
+		blacklight = "Lumiere noir",
+
 		submit = "Soumettre",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "Teinte installée avec succès",
 		failed = "L'installation de la teinte a échoué",
 		menuheader = "Teintes de fenêtre", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Enlèvement de teinte",
 		label2 = "Limousine",
 		label3 = "Vert",
 		label4 = "Legerment fumée",
 		label5 = "Fumée Noire",
 		label6 = "Pure Noire",
-	},	
+	},
 	["stores"] = {
 		browse = "Parcourir la boutique",
 		tools = "Outils de mécanique",
@@ -350,7 +355,7 @@ Loc["fr"] = {
 		reinforced = "Chassis renforcé",
 		xenoninst = "Xénon installé",
 		tireinst = "Installée",
-		
+
 		label1 = "Moteurs:",
 		label2 = "Freins:",
 		label3 = "Suspenssion:",
@@ -362,7 +367,7 @@ Loc["fr"] = {
 		label9 = "Pneus par-balles:",
 		label10 = "Liste des cosmétiques possibles",
 		label11 = "Vehicule: ",
-		
+
 		label12 = " options ]",
 		label13 = "- Cosmétique Externe -",
 		label14 = "- Cosmétique Interne - ",
@@ -385,7 +390,7 @@ Loc["fr"] = {
 		label31 = "Filtre a air - [ ",
 		label32 = "Barre antirapprochement - [ ",
 		label33 = "Ailes - [ ",
-		
+
 		label34 = "Cages de sécurité - [ ",
 		label35 = "Accessoires - [ ",
 		label36 = "Tableaux de bord - [ ",
@@ -417,7 +422,7 @@ Loc["fr"] = {
 		materials = "Vous n'avez pas assez de matériel",
 		checkeng = "Vérification des dommages au moteur..",
 		checkbody = "Vérification des dommages du chassis..",
-		
+
 		engine = "Moteur",
 		body = "Chassis",
 		radiator = "Radiateurs",
@@ -425,17 +430,17 @@ Loc["fr"] = {
 		brakes = "Freins",
 		clutch = "Embrayage",
 		tank = "Reservoir",
-		
+
 		repairing = "réparation",
 		repaired = " entièrement réparé",
 		cancel = " Réparation annulée!",
 		nomaterials = "Il n'y a pas assez de matériel dans le coffre-fort",
 		failinfo = "Échec de la récupération des informations sur la voiture, essayez à nouveau d'utiliser les outils",
-		
+
 		cost = "<br>Prix: ",
 		status = "Statut: ",
 		doyou = "Voulez-vous réparer le ",
-		
+
 		applyduct = "Appliquer du ruban adhésif..",
 		ductfull = "Vous ne pouvez plus utiliser de ruban adhésif sur cette voiture",
 		nocar = "Il n'y a pas de véhicule à proximité",
@@ -593,7 +598,13 @@ Loc["fr"] = {
 		{ name = "Festive 2 Loop", id = 48 },
 		{ name = "Festive 2", id = 49 },
 		{ name = "Festive 3 Loop", id = 50 },
-		{ name = "Festive 3", id = 51 }
+		{ name = "Festive 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Noir", id = 0 },

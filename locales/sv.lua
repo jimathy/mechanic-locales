@@ -196,6 +196,11 @@ Loc["sv"] = {
 		removing = "Tar bort NOS-flaskan",
 		removed = "NOS-flaska borttagen",
 		remfail = "Det gick inte att ta bort NOS-flaskan",
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
 	},
 	["paint"] = { --paints.lua
 		primary = "Primär",
@@ -512,7 +517,7 @@ Loc["sv"] = {
 		{ name = "North Yankton", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "Vit", R = 255, G = 255, B = 255 },
+		{ name = "Vit", R = 255, G = 255, B = 255 },
         { name = "Blå", R = 2, G = 21, B = 255 },
         { name = "Elektriskt Blå", R = 3, G = 83, B = 255 },
         { name = "Mintgrön", R = 0, G = 255, B = 140 },
@@ -593,7 +598,13 @@ Loc["sv"] = {
 		{ name = "Festlig 2 Loop", id = 48 },
 		{ name = "Festlig 2", id = 49 },
 		{ name = "Festlig 3 Loop", id = 50 },
-		{ name = "Festlig 3", id = 51 }
+		{ name = "Festlig 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Svart", id = 0 },

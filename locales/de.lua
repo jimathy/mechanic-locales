@@ -100,7 +100,7 @@ Loc["de"] = {
 		removing = "Entferne Xenonlichter",
 		remfail = "Xenon entfernen fehlgeschlagen",
 		closer = "Gehe näher an die Lichter",
-		
+
 		notinstall = "Xenonslichter nicht installiert",
 		--Menus
 		neonheader1 = "Beleuchtungssteuerung",
@@ -129,7 +129,7 @@ Loc["de"] = {
 		menugrille = "Grille",
 		menuFBumper = "Vordere Stoßstangen",
 		menuBBumper = "Hintere Stoßstangen",
-	},	
+	},
 	["exhaust"] = { --exhaust.lua
 		stockMod = "Standart Auspuff",
 		already = " bereits installiert", -- eg. "Stock Bumper already Installed"
@@ -142,7 +142,7 @@ Loc["de"] = {
 		installed = "Erfolgreich Exterior installiert",
 		failed = "Exteriorinstallation fehlgeschlagen",
 		menuheader = " Exterior Modifikation", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Trim A",
 		label2 = "Trim B",
 		label3 = "Kofferraum",
@@ -159,7 +159,7 @@ Loc["de"] = {
 		installed = "Erfolgreich Haube installiert",
 		failed = "Haubeninstallation fehlgeschlagen",
 		menuheader = " Haube Modifikation", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["horns"] = { --horns.lua
 		installed = "Erfolgreich Hupe installiert",
 		failed = "Hupeninstallation fehlgeschlagen",
@@ -170,7 +170,7 @@ Loc["de"] = {
 		installed = "Erfolgreich Interior installiert",
 		failed = "Interiorinstallation fehlgeschlagen",
 		menuheader = " Interior Modifikation", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Überrollkäfig",
 		label2 = "Ornaments",
 		label3 = "Dashboards",
@@ -180,14 +180,14 @@ Loc["de"] = {
 		label7 = "Shifter Leavers",
 		label8 = "Plaques",
 		label9 = "Lautsprecher",
-	},	
+	},
 	["livery"] = { --exhaust.lua
 		oldMod = "old",
 		already = " bereits installiert", -- eg. "Stock Bumper already Installed"
 		installed = "Erfolgreich Folierung installiert",
 		failed = "Livery installation failed!",
 		menuheader = " Livery Modification", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["nos"] = { --exhaust.lua
 		notinstalled = "Turbo ist nicht installiert",
 		installing = "Erfolgreich! Installation von NOS",
@@ -196,7 +196,30 @@ Loc["de"] = {
 		failed = "NOS-Installation fehlgeschlagen!",
 		removed = "NOS-Flasche entfernt",
 		remfail = "NOS-Flasche konnte nicht entfernt werden",
-	},	
+		nosColour = "NOS Purge Colour",
+		boostmode = "Boost Mode",
+		purgemode = "Purge Mode",
+		boost = "Boost Power: ",
+		spray = "Spray Strength: ",
+	},
+	["paint"] = { --paints.lua
+		primary = "Primär",
+		secondary = "Sekundär",
+		pearl = "Perleneffekt",
+		wheel = "Reifen",
+		dashboard = "Dashboard",
+		interior = "Interior",
+
+		classic = "Klassisch",
+		metallic = "Metallisch",
+		matte = "Matt",
+		metals = "Metall",
+
+		installing = "Erfolgreich Farbe installiert",
+		installed = "Erfolgreich Farbe installiert",
+		failed = "Farbeninstallation fehlgeschlagen",
+		menuheader = " Respray",
+	},
 	["paintrgb"] = {
 		select = "Auswahl:",
 		finish = "Fertig:",
@@ -205,24 +228,6 @@ Loc["de"] = {
 		chrome = "Chrome",
 		hex = "HEX Picker",
 		rgb = "RGB Picker",
-	},	
-	["paint"] = { --paints.lua
-		primary = "Primär",
-		secondary = "Sekundär",
-		pearl = "Perleneffekt",
-		wheel = "Reifen",
-		dashboard = "Dashboard",
-		interior = "Interior",
-		
-		classic = "Klassisch",
-		metallic = "Metallisch",
-		matte = "Matt",
-		metals = "Metall",
-		
-		installing = "Erfolgreich Farbe installiert",
-		installed = "Erfolgreich Farbe installiert",
-		failed = "Farbeninstallation fehlgeschlagen",
-		menuheader = " Respray",
 	},
 	["plates"] = { --paints.lua
 		already = "Kennzeichen bereits installiert",
@@ -240,7 +245,7 @@ Loc["de"] = {
 		installed = "Erfolgreich Felgen installiert",
 		failed = "Felgeninstallation fehlgeschlagen",
 		menuheader = "Felgen Modifikation",
-		
+
 		label1 = "Sport",
 		label2 = "Muscle",
 		label3 = "Lowrider",
@@ -256,7 +261,7 @@ Loc["de"] = {
 		label13 = "Front Wheel",
 		label14 = "Back Wheel",
 		label15 = "Motorcycle",
-		
+
 		labelcustom = "Custom Felgen",
 	},
 	["rollcage"] = { --rollcage.lua
@@ -268,7 +273,7 @@ Loc["de"] = {
 		installed = "Erfolgreich Dach installiert",
 		failed = "Dachinstallation fehlgeschlagen",
 		menuheader = " Dach Modifikation", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},	
+	},
 	["seat"] = { --seat.lua
 		installed = "Erfolgreich Sitze installiert",
 		failed = "Sitzinstallation fehlgeschlagen",
@@ -281,19 +286,19 @@ Loc["de"] = {
 		menuskirt = "Skirts",
 		menuRF = "Rechte Kotflügel",
 		menuLF = "Linke Kotflügel",
-	},		
+	},
 	["spoilers"] = { --spoilers.lua
 		installed = "Erfolgreich Spoiler installiert",
 		failed = "Spoilerinstallation fehlgeschlagen",
 		menuheader = " Spoiler Modifikation", --eg "Sultan RS Grille and Bumper Cosmetics"
-	},		
+	},
 	["smoke"] = { --tiresmoke.lua
 		already = "Diese Farbe wird derzeit verwendet",
 		installing = "Installiere Reifensmoke",
 		installed = "Erfolgreich Smoke installiert",
 		failed = "Smokeinstallation fehlgeschlagen",
 		menuheader = " Reifensmoke Modifikation", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		remove = "Smoke entfernen",
 		custom = "CUSTOM RBG",
 		black = "Schwarz",
@@ -309,22 +314,22 @@ Loc["de"] = {
 		ppink = "Pony Pink",
 		hpink = "Hot Pink",
 		purple = "Lila",
-		blacklight = "Schwarzlicht",	
-	
+		blacklight = "Schwarzlicht",
+
 		submit = "Abgeben",
-	},	
+	},
 	["windows"] = { --windows.lua
 		installed = "Erfolgreich Farbton installiert",
 		failed = "Farbtoninstallation fehlgeschlagen",
 		menuheader = " Fenster Farbton", --eg "Sultan RS Grille and Bumper Cosmetics"
-		
+
 		label1 = "Farbton entfernen",
 		label2 = "Limo",
 		label3 = "Grün",
 		label4 = "Helles Grau",
 		label5 = "Dunkles Grau",
 		label6 = "Pures Schwarz",
-	},	
+	},
 	["stores"] = {
 		browse = "Shop durchsuchen",
 		tools = "Mechaniker Werkzeuge",
@@ -341,7 +346,7 @@ Loc["de"] = {
 	},
 	["payments"] = { --payments.lua
 		charge = "Charge Customer",
-	},	
+	},
 	["check"] = { --check_tunes.lua
 		plate = "Plate: [",
 		value = "]<br>Value: $",
@@ -350,7 +355,7 @@ Loc["de"] = {
 		reinforced = "Verstärkte Karosserie",
 		xenoninst = "Xenon installiert",
 		tireinst = "Installiert",
-		
+
 		label1 = "Motor:",
 		label2 = "Bremsen:",
 		label3 = "Federung:",
@@ -362,7 +367,7 @@ Loc["de"] = {
 		label9 = "Bulletproof Reifen:",
 		label10 = "Liste möglicher Kosmetik",
 		label11 = "Fahrzeug: ",
-		
+
 		label12 = " Optionen ]",
 		label13 = "- External Kosmetik -",
 		label14 = "- Internal Kosmetik - ",
@@ -385,7 +390,7 @@ Loc["de"] = {
 		label31 = "Air Filters - [ ",
 		label32 = "Engine Strut - [ ",
 		label33 = "Arch Covers - [ ",
-		
+
 		label34 = "Überrollkäfige - [ ",
 		label35 = "Ornamente - [ ",
 		label36 = "Dashboards - [ ",
@@ -417,7 +422,7 @@ Loc["de"] = {
 		materials = "Du hast nicht genug Materialien",
 		checkeng = "Motorschaden überprüfen",
 		checkbody = "Karosserieschaden überprüfen",
-		
+
 		engine = "Motor",
 		body = "Karosserie",
 		radiator = "Kühler",
@@ -425,17 +430,17 @@ Loc["de"] = {
 		brakes = "Bremsen",
 		clutch = "Kupplung",
 		tank = "Tank",
-		
+
 		repairing = "Reparieren ",
 		repaired = " völlig repariert",
 		cancel = " Reparatur abgebrochen",
 		nomaterials = "Es gibt nicht genug Materialien im Schrank",
 		failinfo = "Fahrzeuginformationen konnten nicht abgerufen werden. Versuchen es erneut",
-		
+
 		cost = "<br>Cost: ",
 		status = "Status: ",
 		doyou = "Willst du das reparieren ",
-		
+
 		applyduct = "Klebeband anbringen",
 		ductfull = "Sie können an diesem Auto kein Klebeband mehr verwenden",
 		nocar = "Es ist kein Fahrzeug in der nähe",
@@ -512,7 +517,7 @@ Loc["de"] = {
 		{ name = "North Yankton", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "White", R = 255, G = 255, B = 255 },
+		{ name = "White", R = 255, G = 255, B = 255 },
         { name = "Blue", R = 2, G = 21, B = 255 },
         { name = "Electric Blue", R = 3, G = 83, B = 255 },
         { name = "Mint Green", R = 0, G = 255, B = 140 },
@@ -593,7 +598,13 @@ Loc["de"] = {
 		{ name = "Festive 2 Loop", id = 48 },
 		{ name = "Festive 2", id = 49 },
 		{ name = "Festive 3 Loop", id = 50 },
-		{ name = "Festive 3", id = 51 }
+		{ name = "Festive 3", id = 51 },
+		{ name = "Air Horn 1 Loop", id = 52},
+		{ name = "Air Horn 1", id = 53},
+		{ name = "Air Horn 2 Loop", id = 54},
+		{ name = "Air Horn 2", id = 55},
+		{ name = "Air Horn 3 Loop", id = 56},
+		{ name = "Air Horn 3", id = 57},
 	},
 	vehicleResprayOptionsClassic = {
 		{ name = "Black", id = 0 },
