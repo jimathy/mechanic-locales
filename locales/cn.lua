@@ -10,8 +10,8 @@ Loc["cn"] = {
 		amountoption = "可用数量: ",
 		already = "已安装", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " 个等级] 已安装: ", --eg "[4 Options] Installed: Grille 1"
-		nearwheel = "You need to move closer to a wheel",
-		nearengine = "You need to move closer to the engine"
+		nearwheel = "你需要靠近一个车轮",
+		nearengine = "你需要靠近引擎"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -216,7 +216,7 @@ Loc["cn"] = {
 		metallic = "仿金属色",
 		matte = "哑光",
 		metals = "金属色",
-		chameleon = "Chameleon",
+		chameleon = "渐变色",
 
 		installing = "更改喷漆颜色中..",
 		installed = "喷漆颜色更改成功",
@@ -433,11 +433,11 @@ Loc["cn"] = {
 		brakes = "刹车",
 		clutch = "离合器",
 		tank = "油箱k",
-		replacetire = "Replace Tires",
-		tire = "Wheels",
+		replacetire = "更换轮胎",
+		tire = "车轮",
 
 		repairing = "正在修理",
-		changing = "Changing ",
+		changing = "更换中 ",
 		repaired = "完全修复",
 		cancel = "修复取消!",
 		nomaterials = "仓库里没有足够的材料",
@@ -469,10 +469,10 @@ Loc["cn"] = {
 		doors = "车门修复中",
 	},
 	["carwax"] = {
-		head1 = "Clean Vehicle",
-		head2 = "Clean and Wax",
-		head3 = "Clean and Premium Wax",
-		head4 = "Clean and Ultimate Wax",
+		head1 = "清洗车辆",
+		head2 = "清洗和打蜡",
+		head3 = "清洗和高级打蜡",
+		head4 = "清洗和终极打蜡",
 	},
 	["extras"] = {
 		clean = "车辆清理",
@@ -726,21 +726,21 @@ Loc["cn"] = {
 		{ name = "铬合金", id = 120 },
 	},
 	vehicleResprayOptionsChameleon = {
-		{ name = "Monochrome", id = 223 },
-		{ name = "Chromatic Aberration", id = 236 },
-		{ name = "Night & Day", id = 224 },
-		{ name = "The Verlierer", id = 225 },
-		{ name = "Sprunk Extreme", id = 226 },
-		{ name = "Vice City", id = 227 },
-		{ name = "Sunset", id = 233 },
-		{ name = "Temperature", id = 238 },
-		{ name = "Synthwave Nights", id = 228 },
-		{ name = "Four Seasons", id = 229 },
-		{ name = "The Seven", id = 234 },
-		{ name = "Maisonette 9 Throwback", id = 230 },
-		{ name = "Bubblegum", id = 231 },
-		{ name = "Full Rainbow", id = 232 },
-		{ name = "Kamen Rider", id = 235 },
-		{ name = "It's Christmas", id = 237 },
+		{ name = "黑白", id = 223 },
+		{ name = "色差", id = 236 },
+		{ name = "昼夜", id = 224 },
+		{ name = "维利尔", id = 225 },
+		{ name = "极度斯普朗克", id = 226 },
+		{ name = "罪恶都市", id = 227 },
+		{ name = "日落", id = 233 },
+		{ name = "温差", id = 238 },
+		{ name = "震波之夜", id = 228 },
+		{ name = "四季", id = 229 },
+		{ name = "老七", id = 234 },
+		{ name = "复古别墅", id = 230 },
+		{ name = "泡泡堂", id = 231 },
+		{ name = "彩虹", id = 232 },
+		{ name = "假面骑士", id = 235 },
+		{ name = "圣诞节", id = 237 },
 	},
 }
