@@ -1,8 +1,8 @@
 Loc["en"] = {
 		["common"] = { --commonly used strings
 		owned = "Vehicle isn't owned, cannot modify",
-		close = "❌ Close",
-		ret = "⬅️ Return",
+		close = "Close",
+		ret = "Return",
 		stock = "Stock", -- Default, Original, whatever word you use for this
 		current = "Currently Installed",
 		noOptions = "No options available for this item",
@@ -10,6 +10,8 @@ Loc["en"] = {
 		amountoption = "Amount of Options: ",
 		already = " already installed", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " Options] Installed: ", --eg "[4 Options] Installed: Grille 1"
+		nearwheel = "You need to move closer to a wheel",
+		nearengine = "You need to move closer to the engine"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -214,6 +216,7 @@ Loc["en"] = {
 		metallic = "Metallic",
 		matte = "Matte",
 		metals = "Metals",
+		chameleon = "Chameleon",
 
 		installing = "Success! Installing Paint",
 		installed = "Success! Paint Installed",
@@ -404,8 +407,8 @@ Loc["en"] = {
 		label44 = "Hydraulics - [ ",
 		label45 = "Aerials - [ ",
 		label46 = "Fuel Tanks - [ ",
-		label47 = "✅ Yes",
-		label48 = "❌ No",
+		label47 = "Yes",
+		label48 = "No",
 		label49 = "Do you want to remove the Brakes?",
 		label50 = "Do you want to remove the Engine?",
 		label51 = "Do you want to remove the Suspension?",
@@ -425,13 +428,16 @@ Loc["en"] = {
 
 		engine = "Engine",
 		body = "Body",
-		radiator = "Radiator",
-		driveshaft = "Drive Shaft",
-		brakes = "Brakes",
-		clutch = "Clutch",
+		radiator = "Oil Level",
+		driveshaft = "Axle Shaft",
+		brakes = "Spark Plugs",
+		clutch = "Car Battery",
 		tank = "Fuel Tank",
+		replacetire = "Replace Tires",
+		tire = "Wheels",
 
 		repairing = "Repairing ",
+		changing = "Changing ",
 		repaired = " fully repaired",
 		cancel = " Repair cancelled!",
 		nomaterials = "There Are Not Enough Materials In The Safe",
@@ -461,6 +467,12 @@ Loc["en"] = {
 		tyres = "Replacing Damaged Tyres",
 		window = "Removing Damaged Windows",
 		doors = "Repairing Doors",
+	},
+	["carwax"] = {
+		head1 = "Clean Vehicle",
+		head2 = "Clean and Wax",
+		head3 = "Clean and Premium Wax",
+		head4 = "Clean and Ultimate Wax",
 	},
 	["extras"] = {
 		clean = "Vehicle Clean",
@@ -712,5 +724,23 @@ Loc["en"] = {
 		{ name = "Pure Gold", id = 158 },
 		{ name = "Brushed Gold", id = 159 },
 		{ name = "Chrome", id = 120 },
+	},
+	vehicleResprayOptionsChameleon = {
+		{ name = "Monochrome", id = 223 },
+		{ name = "Chromatic Aberration", id = 236 },
+		{ name = "Night & Day", id = 224 },
+		{ name = "The Verlierer", id = 225 },
+		{ name = "Sprunk Extreme", id = 226 },
+		{ name = "Vice City", id = 227 },
+		{ name = "Sunset", id = 233 },
+		{ name = "Temperature", id = 238 },
+		{ name = "Synthwave Nights", id = 228 },
+		{ name = "Four Seasons", id = 229 },
+		{ name = "The Seven", id = 234 },
+		{ name = "Maisonette 9 Throwback", id = 230 },
+		{ name = "Bubblegum", id = 231 },
+		{ name = "Full Rainbow", id = 232 },
+		{ name = "Kamen Rider", id = 235 },
+		{ name = "It's Christmas", id = 237 },
 	},
 }

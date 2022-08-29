@@ -1,8 +1,8 @@
 Loc["sv"] = {
 	["common"] = { --commonly used strings
 		owned = "Fordonet ägs inte, kan inte ändras",
-		close = "❌ Stäng",
-		ret = "⬅️ Tillbaka",
+		close = "Stäng",
+		ret = "Tillbaka",
 		stock = "Stock", -- Default, Original, whatever word you use for this
 		current = "För närvarande installerad",
 		noOptions = "Inga alternativ tillgängliga för denna artikel",
@@ -10,6 +10,8 @@ Loc["sv"] = {
 		amountoption = "Antal alternativ: ",
 		already = " Redan installerad", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " Alternativ Installerad: ", --eg "[4 Options] Installed: Grille 1"
+		nearwheel = "You need to move closer to a wheel",
+		nearengine = "You need to move closer to the engine"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -214,6 +216,7 @@ Loc["sv"] = {
 		metallic = "Metallisk",
 		matte = "Matte",
 		metals = "Metaller",
+		chameleon = "Chameleon",
 
 		installing = "Framgång! Installerar Färg",
 		installed = "Framgång! Färg installerad",
@@ -404,8 +407,8 @@ Loc["sv"] = {
 		label44 = "Hydraulik - [ ",
 		label45 = "Antenner - [ ",
 		label46 = "Bränsletankar - [ ",
-		label47 = "✅ Ja",
-		label48 = "❌ Nej",
+		label47 = "Ja",
+		label48 = "Nej",
 		label49 = "Vill du ta bort bromsarna?",
 		label50 = "Vill du ta bort motorn?",
 		label51 = "Vill du ta bort upphängningen?",
@@ -430,8 +433,11 @@ Loc["sv"] = {
 		brakes = "Bromsar",
 		clutch = "Koppling",
 		tank = "Bränsletank",
+		replacetire = "Replace Tires",
+		tire = "Wheels",
 
 		repairing = "Reparation ",
+		changing = "Changing ",
 		repaired = " Helt reparerad",
 		cancel = " Reparationen avbruten!",
 		nomaterials = "Det finns inte tillräckligt med material i kassaskåpet",
@@ -461,6 +467,12 @@ Loc["sv"] = {
 		tyres = "Byte av skadade däck",
 		window = "Ta bort skadade fönster",
 		doors = "Reparera dörrar",
+	},
+	["carwax"] = {
+		head1 = "Clean Vehicle",
+		head2 = "Clean and Wax",
+		head3 = "Clean and Premium Wax",
+		head4 = "Clean and Ultimate Wax",
 	},
 	["extras"] = {
 		clean = "Rengöring av fordon",
@@ -712,5 +724,23 @@ Loc["sv"] = {
 		{ name = "Rent guld", id = 158 },
 		{ name = "Borstad guld", id = 159 },
 		{ name = "Krom", id = 120 },
+	},
+	vehicleResprayOptionsChameleon = {
+		{ name = "Monochrome", id = 223 },
+		{ name = "Chromatic Aberration", id = 236 },
+		{ name = "Night & Day", id = 224 },
+		{ name = "The Verlierer", id = 225 },
+		{ name = "Sprunk Extreme", id = 226 },
+		{ name = "Vice City", id = 227 },
+		{ name = "Sunset", id = 233 },
+		{ name = "Temperature", id = 238 },
+		{ name = "Synthwave Nights", id = 228 },
+		{ name = "Four Seasons", id = 229 },
+		{ name = "The Seven", id = 234 },
+		{ name = "Maisonette 9 Throwback", id = 230 },
+		{ name = "Bubblegum", id = 231 },
+		{ name = "Full Rainbow", id = 232 },
+		{ name = "Kamen Rider", id = 235 },
+		{ name = "It's Christmas", id = 237 },
 	},
 }

@@ -1,8 +1,8 @@
 Loc["ro"] = {
 	["common"] = { --commonly used strings
 		owned = "Nu detii acest vehicul, nu il poti modifca",
-		close = "❌ Inchide",
-		ret = "⬅️ Intoarce",
+		close = "Inchide",
+		ret = "Intoarce",
 		stock = "Stoc", -- Default, Original, whatever word you use for this
 		current = "Deja montat",
 		noOptions = "Nu exista optiuni",
@@ -10,6 +10,8 @@ Loc["ro"] = {
 		amountoption = "Optiuni Valabile: ",
 		already = " Deja montat", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " Optiunea a fost montata: ", --eg "[4 Options] Installed: Grille 1"
+		nearwheel = "You need to move closer to a wheel",
+		nearengine = "You need to move closer to the engine"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -214,6 +216,7 @@ Loc["ro"] = {
 		metallic = "Metalic",
 		matte = "Mat",
 		metals = "Metalic",
+		chameleon = "Chameleon",
 
 		installing = "Se aplica culoarea",
 		installed = "Culoarea a fost aplicata",
@@ -322,6 +325,7 @@ Loc["ro"] = {
 		installed = "Folie geamuri aplicata",
 		failed = "Aplicare folie geamuri esuata",
 		menuheader = "Modificari folie geamuri", --eg "Sultan RS Grille and Bumper Cosmetics"
+
 		label1 = "Scoatere folie geamuri",
 		label2 = "Lime",
 		label3 = "Verde",
@@ -349,11 +353,12 @@ Loc["ro"] = {
 	["check"] = { --check_tunes.lua
 		plate = "Placuta",
 		value = "Valoare",
-		unavail = "❌Nu e valoare",
+		unavail = "❌ Nu e valoare",
 		notinstall = "Nu e instalat",
 		reinforced = "Ranforsare ",
 		xenoninst = "Xenon Instalat",
 		tireinst = "Instalat",
+
 		label1 = "Motor",
 		label2 = "Frane:",
 		label3 = "Suspensii",
@@ -365,6 +370,7 @@ Loc["ro"] = {
 		label9 = "Cauciucuri antiglont:",
 		label10 = "Lista Modificari",
 		label11 = "Vehicul: ",
+
 		label12 = " Optiuni",
 		label13 = "- Modificari externe -",
 		label14 = "- Modificari interne - ",
@@ -387,6 +393,7 @@ Loc["ro"] = {
 		label31 = "Filtru aer - [ ",
 		label32 = "Engine Strut - [ ",
 		label33 = "Faruri - [ ",
+
 		label34 = "Bare de sustinere [ ",
 		label35 = "Ornamente- [ ",
 		label36 = "Bord - [ ",
@@ -418,6 +425,7 @@ Loc["ro"] = {
 		materials = "Nu ai destule materiale",
 		checkeng = "Verifica daune motor..",
 		checkbody = "verifica daune caroserie..",
+
 		engine = "Motor",
 		body = "Caroserie",
 		radiator = "Radiator",
@@ -425,14 +433,20 @@ Loc["ro"] = {
 		brakes = "Frane",
 		clutch = "Ambreiaj",
 		tank = "Rezervor de benzina",
+		replacetire = "Replace Tires",
+		tire = "Wheels",
+
 		repairing = "Repara",
+		changing = "Changing ",
 		repaired = " Reparat complet",
 		cancel = " Reparatie anulata",
 		nomaterials = "Nu sunt destule materiale in seif",
 		failinfo = "Nu ai reusit sa afli informatiile vehiculului,incearca sa folosesti sculele din nou",
+
 		cost = "Pret ",
 		status = "Status: ",
 		doyou = "Vrei sa repari?",
+
 		applyduct = "Aplica banda izoliera..",
 		ductfull = "Prea multa banda izoliera ,dao dracu ca nu-i dacie",
 		nocar = "Nu exista nici un vehicul in apropiere",
@@ -443,7 +457,7 @@ Loc["ro"] = {
 		extras = "Extra",
 		plates = "Placute",
 		livery = "Livery",
-		spoiler = "Spoiler",
+		spoiler = "Spoilers",
 		cleaning = "Cleaning Vehicle...",
 		engine = "Repairing Engine...",
 		body = "Repairing Body...",
@@ -453,6 +467,12 @@ Loc["ro"] = {
 		tyres = "Replacing Damaged Tyres",
 		window = "Removing Damaged Windows",
 		doors = "Repairing Doors",
+	},
+	["carwax"] = {
+		head1 = "Clean Vehicle",
+		head2 = "Clean and Wax",
+		head3 = "Clean and Premium Wax",
+		head4 = "Clean and Ultimate Wax",
 	},
 	["extras"] = {
 		clean = "Spala vehicul",
@@ -704,5 +724,23 @@ Loc["ro"] = {
 		{ name = "Pure Gold", id = 158 },
 		{ name = "Brushed Gold", id = 159 },
 		{ name = "Chrome", id = 120 },
+	},
+	vehicleResprayOptionsChameleon = {
+		{ name = "Monochrome", id = 223 },
+		{ name = "Chromatic Aberration", id = 236 },
+		{ name = "Night & Day", id = 224 },
+		{ name = "The Verlierer", id = 225 },
+		{ name = "Sprunk Extreme", id = 226 },
+		{ name = "Vice City", id = 227 },
+		{ name = "Sunset", id = 233 },
+		{ name = "Temperature", id = 238 },
+		{ name = "Synthwave Nights", id = 228 },
+		{ name = "Four Seasons", id = 229 },
+		{ name = "The Seven", id = 234 },
+		{ name = "Maisonette 9 Throwback", id = 230 },
+		{ name = "Bubblegum", id = 231 },
+		{ name = "Full Rainbow", id = 232 },
+		{ name = "Kamen Rider", id = 235 },
+		{ name = "It's Christmas", id = 237 },
 	},
 }

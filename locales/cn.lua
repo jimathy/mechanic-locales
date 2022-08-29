@@ -1,8 +1,8 @@
 Loc["cn"] = {
 	["common"] = { --commonly used strings
 		owned = "无法改装没有车主的车",
-		close = "❌ 关闭",
-		ret = "⬅️ 返回",
+		close = "关闭",
+		ret = "返回",
 		stock = "原厂", -- Default, Original, whatever word you use for this
 		current = "当前已安装",
 		noOptions = "此项目没有可用选项",
@@ -10,6 +10,8 @@ Loc["cn"] = {
 		amountoption = "可用数量: ",
 		already = "已安装", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " 个等级] 已安装: ", --eg "[4 Options] Installed: Grille 1"
+		nearwheel = "You need to move closer to a wheel",
+		nearengine = "You need to move closer to the engine"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -214,6 +216,7 @@ Loc["cn"] = {
 		metallic = "仿金属色",
 		matte = "哑光",
 		metals = "金属色",
+		chameleon = "Chameleon",
 
 		installing = "更改喷漆颜色中..",
 		installed = "喷漆颜色更改成功",
@@ -404,8 +407,8 @@ Loc["cn"] = {
 		label44 = "液压泵 - [ ",
 		label45 = "天线 - [ ",
 		label46 = "油箱 - [ ",
-		label47 = "✅ 是",
-		label48 = "❌ 否",
+		label47 = "是",
+		label48 = "否",
 		label49 = "你是否确认要移除刹车套件?",
 		label50 = "你是否确认要移除引擎套件?",
 		label51 = "你是否确认要移除避震套件?",
@@ -430,8 +433,11 @@ Loc["cn"] = {
 		brakes = "刹车",
 		clutch = "离合器",
 		tank = "油箱k",
+		replacetire = "Replace Tires",
+		tire = "Wheels",
 
 		repairing = "正在修理",
+		changing = "Changing ",
 		repaired = "完全修复",
 		cancel = "修复取消!",
 		nomaterials = "仓库里没有足够的材料",
@@ -461,6 +467,12 @@ Loc["cn"] = {
 		tyres = "更换破损轮胎中",
 		window = "移除破损车窗中",
 		doors = "车门修复中",
+	},
+	["carwax"] = {
+		head1 = "Clean Vehicle",
+		head2 = "Clean and Wax",
+		head3 = "Clean and Premium Wax",
+		head4 = "Clean and Ultimate Wax",
 	},
 	["extras"] = {
 		clean = "车辆清理",
@@ -712,5 +724,23 @@ Loc["cn"] = {
 		{ name = "纯金色", id = 158 },
 		{ name = "拉丝金", id = 159 },
 		{ name = "铬合金", id = 120 },
+	},
+	vehicleResprayOptionsChameleon = {
+		{ name = "Monochrome", id = 223 },
+		{ name = "Chromatic Aberration", id = 236 },
+		{ name = "Night & Day", id = 224 },
+		{ name = "The Verlierer", id = 225 },
+		{ name = "Sprunk Extreme", id = 226 },
+		{ name = "Vice City", id = 227 },
+		{ name = "Sunset", id = 233 },
+		{ name = "Temperature", id = 238 },
+		{ name = "Synthwave Nights", id = 228 },
+		{ name = "Four Seasons", id = 229 },
+		{ name = "The Seven", id = 234 },
+		{ name = "Maisonette 9 Throwback", id = 230 },
+		{ name = "Bubblegum", id = 231 },
+		{ name = "Full Rainbow", id = 232 },
+		{ name = "Kamen Rider", id = 235 },
+		{ name = "It's Christmas", id = 237 },
 	},
 }

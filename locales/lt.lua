@@ -3,8 +3,8 @@
 Loc["lt"] = {
 	["common"] = { --commonly used strings
 		owned = "Ši tr. priemonė niekam nepriklauso, negalima modifikuoti",
-		close = "❌ Uždaryti",
-		ret = "⬅️ Atgal",
+		close = "Uždaryti",
+		ret = "Atgal",
 		stock = "Įprastinis", -- Default, Original, whatever word you use for this
 		current = "Dabartinis",
 		noOptions = "Nėra parinkčių šiam tobulinimui",
@@ -12,6 +12,8 @@ Loc["lt"] = {
 		amountoption = "Parinkčių kiekis: ",
 		already = " jau sumontuota", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " parinktys] sumontuotos: ", --eg "[4 Options] Installed: Grille 1"
+		nearwheel = "You need to move closer to a wheel",
+		nearengine = "You need to move closer to the engine"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -216,6 +218,7 @@ Loc["lt"] = {
 		metallic = "Blizgi",
 		matte = "Matinė",
 		metals = "Metalinė",
+		chameleon = "Chameleon",
 
 		installing = "Puiku! Purškiate dažus",
 		installed = "Sėkmingai nudažėte",
@@ -406,8 +409,8 @@ Loc["lt"] = {
 		label44 = "Hidraulika - [ ",
 		label45 = "Aerodinamika - [ ",
 		label46 = "Kuro bakai - [ ",
-		label47 = "✅ Taip",
-		label48 = "❌ Ne",
+		label47 = "Taip",
+		label48 = "Ne",
 		label49 = "Ar tikrai norite išmontuoti stabdžius?",
 		label50 = "Ar tikrai norite išmontuoti variklį?",
 		label51 = "Ar tikrai norite išmontuoti pakabą?",
@@ -432,8 +435,11 @@ Loc["lt"] = {
 		brakes = "Stabdžiai",
 		clutch = "Sankaba",
 		tank = "Kuro bakas",
+		replacetire = "Replace Tires",
+		tire = "Wheels",
 
 		repairing = "Taisote ",
+		changing = "Changing ",
 		repaired = " sutaisytas",
 		cancel = " taisymas atšauktas!",
 		nomaterials = "Saugykloje nėra pakankamai medžiagų",
@@ -463,6 +469,12 @@ Loc["lt"] = {
 		tyres = "Replacing Damaged Tyres",
 		window = "Removing Damaged Windows",
 		doors = "Repairing Doors",
+	},
+	["carwax"] = {
+		head1 = "Clean Vehicle",
+		head2 = "Clean and Wax",
+		head3 = "Clean and Premium Wax",
+		head4 = "Clean and Ultimate Wax",
 	},
 	["extras"] = {
 		clean = "Tr. priemonės valymas",
@@ -714,5 +726,23 @@ Loc["lt"] = {
 		{ name = "Pure Gold", id = 158 },
 		{ name = "Brushed Gold", id = 159 },
 		{ name = "Chrome", id = 120 },
+	},
+	vehicleResprayOptionsChameleon = {
+		{ name = "Monochrome", id = 223 },
+		{ name = "Chromatic Aberration", id = 236 },
+		{ name = "Night & Day", id = 224 },
+		{ name = "The Verlierer", id = 225 },
+		{ name = "Sprunk Extreme", id = 226 },
+		{ name = "Vice City", id = 227 },
+		{ name = "Sunset", id = 233 },
+		{ name = "Temperature", id = 238 },
+		{ name = "Synthwave Nights", id = 228 },
+		{ name = "Four Seasons", id = 229 },
+		{ name = "The Seven", id = 234 },
+		{ name = "Maisonette 9 Throwback", id = 230 },
+		{ name = "Bubblegum", id = 231 },
+		{ name = "Full Rainbow", id = 232 },
+		{ name = "Kamen Rider", id = 235 },
+		{ name = "It's Christmas", id = 237 },
 	},
 }

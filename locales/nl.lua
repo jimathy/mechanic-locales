@@ -1,8 +1,8 @@
 Loc["nl"] = {
 	["common"] = { --commonly used strings
 		owned = "Voertuig is geen eigendom, kan niet worden gewijzigd",
-		close = "❌ Sluiten",
-		ret = "⬅️ Terug",
+		close = "Sluiten",
+		ret = "Terug",
 		stock = "Origineel", -- Default, Original, whatever word you use for this
 		current = "Momenteel Geïnstalleerd",
 		noOptions = "Geen opties beschikbaar voor dit artikel",
@@ -10,6 +10,8 @@ Loc["nl"] = {
 		amountoption = "Aantal opties: ",
 		already = " reeds geïnstalleerd", -- eg. "Stock Bumper already Installed"
 		menuinstalled = " Opties] Geïnstalleerd: ", --eg "[4 Options] Installed: Grille 1"
+		nearwheel = "You need to move closer to a wheel",
+		nearengine = "You need to move closer to the engine"
 	},
 	--Performance Items
 	["armour"] = { --armour.lua
@@ -214,7 +216,9 @@ Loc["nl"] = {
 		metallic = "Metallic",
 		matte = "Matte",
 		metals = "Metalen",
+		chameleon = "Chameleon",
 
+		installing = "Success! Installing Paint",
 		installed = "Succes! Spuiten gelukt",
 		failed = "Overspuiten mislukt!",
 		menuheader = "Overspuiten",
@@ -223,7 +227,7 @@ Loc["nl"] = {
 		select = "Selection:",
 		finish = "Finish Select:",
 		error = "Hex Code input needs to be 6 characters",
-		customheader = "Custom HEX",
+		customheader = "Custom HEX and RGB",
 		chrome = "Chrome",
 		hex = "HEX Picker",
 		rgb = "RGB Picker",
@@ -237,7 +241,7 @@ Loc["nl"] = {
 		label1 = "Kentekenhouder",
 		label2 = "Vanity Plates",
 		label3 = "Custom Plates",
-                menuheader2 = " Custom Kenteken Style",
+        menuheader2 = " Custom Kenteken Style",
 	},
 	["rims"] = {
 		installing = "Velgen installeren...",
@@ -403,8 +407,8 @@ Loc["nl"] = {
 		label44 = "Hydraulica - [ ",
 		label45 = "Antennes - [ ",
 		label46 = "Brandstoftanks - [ ",
-		label47 = "✅ Ja",
-		label48 = "❌ Nee",
+		label47 = "Ja",
+		label48 = "Nee",
 		label49 = "Wilt u de remmen verwijderen?",
 		label50 = "Wilt u de motor verwijderen?",
 		label51 = "Wilt u de ophanging verwijderen?",
@@ -429,8 +433,11 @@ Loc["nl"] = {
 		brakes = "Remmen",
 		clutch = "Koppeling",
 		tank = "Brandstoftank",
+		replacetire = "Replace Tires",
+		tire = "Wheels",
 
 		repairing = "Repareren ",
+		changing = "Changing ",
 		repaired = " volledig gerepareerd",
 		cancel = "Reparatie geannuleerd!",
 		nomaterials = "Er zijn niet genoeg materialen in de kluis",
@@ -460,6 +467,12 @@ Loc["nl"] = {
 		tyres = "Replacing Damaged Tyres",
 		window = "Removing Damaged Windows",
 		doors = "Repairing Doors",
+	},
+	["carwax"] = {
+		head1 = "Clean Vehicle",
+		head2 = "Clean and Wax",
+		head3 = "Clean and Premium Wax",
+		head4 = "Clean and Ultimate Wax",
 	},
 	["extras"] = {
 		clean = "Voertuig schoongemaakt",
@@ -516,7 +529,7 @@ Loc["nl"] = {
 		{ name = "North Yankton", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "White", R = 255, G = 255, B = 255 },
+		{ name = "White", R = 255, G = 255, B = 255 },
         { name = "Blue", R = 2, G = 21, B = 255 },
         { name = "Electric Blue", R = 3, G = 83, B = 255 },
         { name = "Mint Green", R = 0, G = 255, B = 140 },
@@ -711,5 +724,23 @@ Loc["nl"] = {
 		{ name = "Pure Gold", id = 158 },
 		{ name = "Brushed Gold", id = 159 },
 		{ name = "Chrome", id = 120 },
+	},
+	vehicleResprayOptionsChameleon = {
+		{ name = "Monochrome", id = 223 },
+		{ name = "Chromatic Aberration", id = 236 },
+		{ name = "Night & Day", id = 224 },
+		{ name = "The Verlierer", id = 225 },
+		{ name = "Sprunk Extreme", id = 226 },
+		{ name = "Vice City", id = 227 },
+		{ name = "Sunset", id = 233 },
+		{ name = "Temperature", id = 238 },
+		{ name = "Synthwave Nights", id = 228 },
+		{ name = "Four Seasons", id = 229 },
+		{ name = "The Seven", id = 234 },
+		{ name = "Maisonette 9 Throwback", id = 230 },
+		{ name = "Bubblegum", id = 231 },
+		{ name = "Full Rainbow", id = 232 },
+		{ name = "Kamen Rider", id = 235 },
+		{ name = "It's Christmas", id = 237 },
 	},
 }
