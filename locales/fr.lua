@@ -623,7 +623,6 @@ Loc["fr"] = {
 		{ name = "Noir carbone", id = 147 },
 		{ name = "Graphite", id = 1 },
 		{ name = "NoirAnthracite", id = 11 },
-		{ name = "Acier noir", id = 11 },
 		{ name = "Acier foncé", id = 3 },
 		{ name = "Argent", id = 4 },
 		{ name = "Argent bleuté", id = 5 },

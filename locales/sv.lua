@@ -623,7 +623,6 @@ Loc["sv"] = {
 		{ name = "Carbon Svart", id = 147 },
 		{ name = "Grafit", id = 1 },
 		{ name = "Antracit Svart", id = 11 },
-		{ name = "Svart stål", id = 11 },
 		{ name = "Mörk stål", id = 3 },
 		{ name = "Silver", id = 4 },
 		{ name = "Blåaktigt silver", id = 5 },
