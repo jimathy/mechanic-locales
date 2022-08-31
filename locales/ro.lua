@@ -623,6 +623,7 @@ Loc["ro"] = {
 		{ name = "Carbon Black", id = 147 },
 		{ name = "Graphite", id = 1 },
 		{ name = "Anhracite Black", id = 11 },
+		{ name = "Black Steel", id = 2 },
 		{ name = "Dark Steel", id = 3 },
 		{ name = "Silver", id = 4 },
 		{ name = "Bluish Silver", id = 5 },
