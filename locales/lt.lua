@@ -112,7 +112,7 @@ Loc["lt"] = {
 		neonheader3 = "Neonų spalvos valdymas",
 		neonheader4 = "Xenon žibintų valdymas",
 		customheader = "Norimas RBG",
-		customconfrim = "PATVIRTINTI",
+		customconfirm = "PATVIRTINTI",
 		neontxt1 = "Tikslus neonų valdymas",
 		toggle = "Įjungti visus",
 		front = "Priekis",
@@ -544,21 +544,6 @@ Loc["lt"] = {
         { name = "Ryškiai rožinė", R = 255, G = 5, B = 190 },
         { name = "Violetinė", R = 35, G = 1, B = 255 },
         { name = "Blacklight", R = 15, G = 3, B = 255 }
-	},
-	vehicleXenonOptions = {
-		{ name = "Balta", id = 0 },
-		{ name = "Mėlyna", id = 1 },
-		{ name = "Elektinė mėlyna", id = 2 },
-		{ name = "Mėtinė", id = 3 },
-		{ name = "Salotinė", id = 4 },
-		{ name = "Geltona", id = 5 },
-		{ name = "Auksinė", id = 6 },
-		{ name = "Oranžinė", id = 7 },
-		{ name = "Raudona", id = 8 },
-		{ name = "Šviesiai rožinė", id = 9 },
-		{ name = "Ryškiai rožinė", id = 10 },
-		{ name = "Violetinė", id = 11 },
-		{ name = "Blacklight", id = 12 }
 	},
 	vehicleHorns = {
 		{ name = "Truck Horn", id = 0 },

@@ -110,7 +110,7 @@ Loc["fr"] = {
 		neonheader3 = "Sous-lueur Color Controls",
 		neonheader4 = "Commandes des phares au xénon",
 		customheader = "RGB personnalisé",
-		customconfrim = "APPLIQUER",
+		customconfirm = "APPLIQUER",
 		neontxt1 = "Contrôle fin de l'éclairage au néon",
 		toggle = "Basculer TOUT",
 		front = "Devant",
@@ -529,7 +529,7 @@ Loc["fr"] = {
 		{ name = "North Yankton", id = 5 },
 	},
 	vehicleNeonOptions = {
-	    { name = "Blanc", R = 255, G = 255, B = 255 },
+		{ name = "Blanc", R = 255, G = 255, B = 255 },
         { name = "Bleu", R = 2, G = 21, B = 255 },
         { name = "Bleue electrique", R = 3, G = 83, B = 255 },
         { name = "Vert Menthe", R = 0, G = 255, B = 140 },
@@ -542,21 +542,6 @@ Loc["fr"] = {
         { name = "Rose vif", R = 255, G = 5, B = 190 },
         { name = "Violet", R = 35, G = 1, B = 255 },
         { name = "Lumière noire", R = 15, G = 3, B = 255 }
-	},
-	vehicleXenonOptions = {
-		{ name = "Blanc", id = 0 },
-		{ name = "Bleu", id = 1 },
-		{ name = "Bleue electrique", id = 2 },
-		{ name = "Vert menthe", id = 3 },
-		{ name = "Vert lime", id = 4 },
-		{ name = "Jaune", id = 5 },
-		{ name = "OR", id = 6 },
-		{ name = "Orange", id = 7 },
-		{ name = "Rouge", id = 8 },
-		{ name = "Rose", id = 9 },
-		{ name = "Rose vif", id = 10 },
-		{ name = "Violet", id = 11 },
-		{ name = "Lumiere noire", id = 12 }
 	},
 	vehicleHorns = {
 		{ name = "Truck Horn", id = 0 },

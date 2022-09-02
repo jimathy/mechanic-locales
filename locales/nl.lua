@@ -110,7 +110,7 @@ Loc["nl"] = {
 		neonheader3 = "Neon kleur controle's",
 		neonheader4 = "Xenon koplampbediening",
 		customheader = "Aangepaste RBG",
-		customconfrim = "TOEPASSEN",
+		customconfirm = "TOEPASSEN",
 		neontxt1 = "Fijnregeling van neonverlichting",
 		toggle = "ALLES inschakelen",
 		front = "Voort",
@@ -542,21 +542,6 @@ Loc["nl"] = {
         { name = "Hot Pink", R = 255, G = 5, B = 190 },
         { name = "Purple", R = 35, G = 1, B = 255 },
         { name = "Blacklight", R = 15, G = 3, B = 255 }
-	},
-	vehicleXenonOptions = {
-		{ name = "White", id = 0 },
-		{ name = "Blue", id = 1 },
-		{ name = "Electric Blue", id = 2 },
-		{ name = "Mint Green", id = 3 },
-		{ name = "Lime Green", id = 4 },
-		{ name = "Yellow", id = 5 },
-		{ name = "Golden Shower", id = 6 },
-		{ name = "Orange", id = 7 },
-		{ name = "Red", id = 8 },
-		{ name = "Pony Pink", id = 9 },
-		{ name = "Hot Pink", id = 10 },
-		{ name = "Purple", id = 11 },
-		{ name = "Blacklight", id = 12 }
 	},
 	vehicleHorns = {
 		{ name = "Truck Horn", id = 0 },

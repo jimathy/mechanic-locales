@@ -110,7 +110,7 @@ Loc["sv"] = {
 		neonheader3 = "Underglow Color Controls",
 		neonheader4 = "Xenon Headlight Controls",
 		customheader = "Custom RBG",
-		customconfrim = "APPLY",
+		customconfirm = "APPLY",
 		neontxt1 = "Fine control of Neon Lighting",
 		toggle = "Toggle ALL",
 		front = "Front",
@@ -542,21 +542,6 @@ Loc["sv"] = {
         { name = "Skrikrosa", R = 255, G = 5, B = 190 },
         { name = "Lila", R = 35, G = 1, B = 255 },
         { name = "Blacklight", R = 15, G = 3, B = 255 }
-	},
-	vehicleXenonOptions = {
-		{ name = "Vit", id = 0 },
-		{ name = "Blå", id = 1 },
-		{ name = "Elektriskt Blå", id = 2 },
-		{ name = "Mintgrön", id = 3 },
-		{ name = "Limegrön", id = 4 },
-		{ name = "Gul", id = 5 },
-		{ name = "Gyllene dusch", id = 6 },
-		{ name = "Orange", id = 7 },
-		{ name = "Röd", id = 8 },
-		{ name = "Ponny Rosa", id = 9 },
-		{ name = "Skrikrosa", id = 10 },
-		{ name = "Lila", id = 11 },
-		{ name = "Blacklight", id = 12 }
 	},
 	vehicleHorns = {
 		{ name = "Lastbilstuta", id = 0 },
